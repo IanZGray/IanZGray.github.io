@@ -1,0 +1,27 @@
+.meauto {
+    color:white;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 1em;
+}
+.meauto:hover {
+    text-decoration: none;
+    color:yellow;
+}
+.meautobrand {
+    color:rgb(33, 9, 36);
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.endTag {
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    padding-right: 2vh;
+    color: white;
+}
+nav {
+    background-color: blueviolet;
+}

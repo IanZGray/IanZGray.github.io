@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, 
+Routes, 
+Route
+} from 'react-router-dom';
+
+
 import './App.css';
+import Navi from './components/navbar/Navi.jsx';
+import Contact from './pages/contact/Contact.jsx';
+import Projects from './pages/projects/Projects.jsx';
+import Error from './pages/error/Error.jsx';
+import Home from './pages/home/Home.jsx';
+import Work from './pages/work/Work.jsx';
+import About from './pages/about/About';
+import Footer from './components/footer/Footer.jsx';
+// import bGVideo from './images/testvid2.mp4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router >
+      {/* <video src={bGVideo} autoplay="autoplay" muted loop /> */}
+      <Navi></Navi>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+
+      <Footer></Footer>
+    </Router>
   );
 }
 

@@ -1,0 +1,53 @@
+.profilePic {
+    object-fit: cover;
+    object-position: center;
+    height: 20vw;
+    width: 20vw;
+}
+
+.titles{
+    text-align: right;
+    color: white;
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 8rem;
+    margin-right: 5%;
+    /* margin-bottom: -.5vh; */
+}
+
+.sub-title {
+    text-align: right;
+    margin-right: 8.5%;
+    color:rgb(255, 253, 126);
+    font-family: 'News Cycle', sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-bottom: 1vw;
+}
+/* 
+.bio-bubble {
+    background-color: rgba(0, 4, 255, 0.616);
+    border-radius: .5vw;
+    height: 90%;
+    width: 90%;
+    grid-column: 1/5;
+    grid-row: 2/5;
+    box-shadow: 0vw 0vw .5vw .5vw rgba(255, 255, 255, 0.8) inset, 
+    -.5vw .5vw 1vw black; 
+    font-family: 'bodoni moda', serif;
+} */
+
+.bio-bubble {
+    background-color: rgb(139, 0, 139);
+    box-shadow: -.8rem .8rem .5rem .1rem rgba(0,0,0,.8);
+} 
+
+.first-row {
+    margin-top: 10vw;
+    margin-left: 2%;
+    display: flex;
+}
+.second-row {
+    margin-top: 15%;
+}

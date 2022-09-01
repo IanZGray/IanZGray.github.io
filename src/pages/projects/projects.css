@@ -1,0 +1,93 @@
+h1{
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-weight: 900;
+    color: cyan;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.pages {
+    margin-bottom: 2.5%;
+}
+.big-header {
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+}
+p {
+    color:#9525A8;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: justify;
+}
+.project-rows {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+.yellow-box {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: .3rem;
+    border-color: yellow;
+    box-shadow: -.8rem .8rem .5rem .1rem rgba(0,0,0,.8);
+}
+.bio {
+    margin-bottom: 1%;
+    /* max-width: 50%; */
+}
+.header {
+    font-size: 5rem;
+    margin-bottom: -.5%;
+    color:cyan;
+    text-shadow: -.1rem .1rem .1rem rgba(0,0,0,.8);
+}
+.sub-header {
+    text-align: center;
+    color:#9525A8;
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+    padding-bottom: .5%;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.pics {
+    width: 100%;
+    transform: translate(0%,50%);
+}
+.descrip {
+    max-width: 50%;
+}
+.project-buttons {
+    background-color: rgba(0,0,0,0);
+    border-color: #9525A8;
+    border-width: .3rem;
+    color: #9525A8;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: justify;
+    border-style: solid;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+.project-buttons:hover {
+    background-color: #9525A8;
+    color: yellow;
+}
+.languages {
+    color: black;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-size: 1.5rem;
+    /* text-shadow: -.05rem .05rem  rgba(0,0,0,.8);s */
+}
