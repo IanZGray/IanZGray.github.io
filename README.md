@@ -20,6 +20,7 @@ Link to GitHub Deployment: **[Ian Gray Portfolio](https://ianzgray.github.io/).*
 - Shop style projects filter that allows the user to filter projects based on languages used
 - Shuffling of Featured Projects
 - Scroll animation
+- Refactoring divs with map
 
 ### License
 
