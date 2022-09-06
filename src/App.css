@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   /* background-color:rgb(92, 69, 190); */
+  overflow-x: hidden;
 }
 
 .pages {

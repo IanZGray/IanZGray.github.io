@@ -1,6 +1,9 @@
-#foot {
-    z-index: 1;
+.meauto {
+    color:black;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 1em;
+    background-color:white;
     text-align: center;
-    color: rgb(255,0,255);
-    position: fixed;
 }

@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-import eye from '../../images/eye.jpg';
-import pac from '../../images/pac.jpg';
-import bus from '../../images/bus.jpg';
+import plantHere from '../../images/plantHereImage.jpg';
+import badBank from '../../images/badBankimg.jpg';
+import portfolioApp from '../../images/portfolioApp.jpg';
 
 
 
@@ -18,50 +18,100 @@ function Projects() {
     
     const awsParagraph = `Using machine learning, we parsed large data sets of soil composition and rainfall history to composite an app that can locate the optimal land for planting based on crop data. `
     const badBankParagraph = `An implementation of custom hooks in React.js that allows a user to create an account, log in, and deposit/withdraw money.`
-    const fireWatchParagraph = `Using NCOO api, this app can inform users of the potential risks of upcoming forest fires by comparing consecutive days with little or no rain, and temperature.`
+    // const fireWatchParagraph = `Using NCOO api, this app can inform users of the potential risks of upcoming forest fires by comparing consecutive days with little or no rain, and temperature.`
+    const fireWatchParagraph = `This mobile-first website uses breakpoints to switch between designs and display sizes.`
   return (
-    <Container fluid className="pages">
+    <Container fluid className="pages featured" id="projects">
         <h1 className="big-header">Featured Projects</h1>
                 <Row className="project-rows">
-                    <Col className="yellow-box" xs={{span: 7, offset: 4}}>
-                        <Col xs={{span: 5}}>
-                            <img src={eye} alt="AWS Sustainability Project"  className="pics"/>
-                        </Col>
-                        <Col xs={{span: 7 }} className='bio'>
+                    <div id="mobile-view">
+                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
+
                             <h1 className="header right">Plant Here</h1>
                             <h2 className="sub-header right">AWS Sustainability Project</h2>
+                            <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
                             <p>{awsParagraph}</p>
                             <p className="languages">React.js, Node.js, JavaScript, CSS, HTML</p>
-                            <button className="project-buttons"> Live Implementation </button> <button className="project-buttons"> Github Repository</button>
+                            <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Live Implementation</button></a>
+
                         </Col>
-                    </Col>
+
+                    </div>
+                    <div id="tablet-up">
+                        <Col className="yellow-box" xs={{span: 7, offset: 4}}>
+                            <Col xs={{span: 5}}>
+                                <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
+                            </Col>
+                            <Col xs={{span: 7 }} className='bio'>
+                                <h1 className="header right">Plant Here</h1>
+                                <h2 className="sub-header right">AWS Sustainability Project</h2>
+                                <p>{awsParagraph}</p>
+                                <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                                <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Live Implementation</button></a>
+                            </Col>
+                        </Col>
+                    </div>
                 </Row>
                 <Row className="project-rows">
-                    <Col className="yellow-box" xs={{span: 7, offset: 1}}>
-                        <Col xs={{span: 7 }} className='bio'>
-                        <h1 className="header left">Bad Bank</h1>
-                        <h2 className="sub-header left">Front-Facing Bank Project</h2>
-                        <p>{badBankParagraph}</p>
-                        <p className="languages">React.js, Node.js, JavaScript, CSS, HTML</p>
-                        <button className="project-buttons"> Live Implementation </button> <button className="project-buttons"> Github Repository</button>
+                    <div id="mobile-view">
+
+                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
+
+                            <h1 className="header left">Bad Bank</h1>
+                            <h2 className="sub-header left">Front-Facing Bank Project</h2>
+                            <img src={badBank} alt="Bad Bank"  className="pics"/>
+                            <p>{badBankParagraph}</p>
+                            <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Live Implementation</button></a>
+                            <a href="https://github.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Github Repository</button></a>
+
                         </Col>
-                        <Col xs={{span: 5}}>
-                            <img src={pac} alt="Bad Bank"  className="pics"/>
+
+                    </div>
+                    <div id="tablet-up">
+                        <Col className="yellow-box" xs={{span: 7, offset: 1}}>
+                            <Col xs={{span: 7 }} className='bio'>
+                            <h1 className="header left">Bad Bank</h1>
+                            <h2 className="sub-header left">Front-Facing Bank Project</h2>
+                            <p>{badBankParagraph}</p>
+                            <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Live Implementation</button></a>
+                            <a href="https://github.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Github Repository</button></a>                            </Col>
+                            <Col xs={{span: 5}}>
+                                <img src={badBank} alt="Bad Bank"  className="pics"/>
+                            </Col>
                         </Col>
-                    </Col>
+                    </div>
                 </Row>
                 <Row className="project-rows">
-                    <Col className="yellow-box" xs={{span: 7, offset: 4}}>
-                        <Col xs={{span: 5}}>
-                            <img src={bus} alt="Fire Watch"  className="pics"/>
-                        </Col>
-                        <Col xs={{span: 7 }} className='bio'>
-                            <h1 className="header right">Fire Watch</h1>
-                            <h2 className="sub-header right">Fire Prediction App</h2>
+                    <div id="mobile-view">
+
+                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
+
+                            <h1 className="header right">this.website</h1>
+                            <h2 className="sub-header right">My Development Portfolio</h2>
+                            <img src={portfolioApp} alt="Fire Watch"  className="pics"/>
                             <p>{fireWatchParagraph}</p>
-                            <button className="project-buttons"> Live Implementation </button> <button className="project-buttons"> Github Repository</button>
+                            <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                            <a href="https://github.com/IanZGray/ianzgray.github.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Github Repository</button></a>
+                        
                         </Col>
-                    </Col>
+
+                    </div>
+                    <div id="tablet-up">
+                        <Col className="yellow-box" xs={{span: 7, offset: 4}}>
+                            <Col xs={{span: 5}}>
+                                <img src={portfolioApp} alt="Fire Watch"  className="pics"/>
+                            </Col>
+                            <Col xs={{span: 7 }} className='bio'>
+                                <h1 className="header right">this.website</h1>
+                                <h2 className="sub-header right">My Development Portfolio</h2>
+                                <p>{fireWatchParagraph}</p>
+                                <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                                <a href="https://github.com/IanZGray/ianzgray.github.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">Github Repository</button></a>
+                            </Col>
+                        </Col>
+                    </div>
                 </Row>
     </Container>
   )

@@ -1,0 +1,109 @@
+.contact-big-header {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
+}
+.contact-button {
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0);
+    border-color: #9525A8;
+    border-width: .2rem;
+    color: #9525A8;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    border-style: solid;
+    margin-bottom: 2%;
+    margin-right: 15%;
+}
+.contact-button:hover {
+    background-color: #9525A8;
+    color: yellow;
+}
+
+.contact-contents {
+    text-align: right;
+    margin-bottom: 20%;
+}
+
+.contact-header {
+    text-align:left;
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    color:cyan;
+    text-shadow: -.09rem .08rem rgba(0,0,0,.8);
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+.contact-sub-header {
+    text-align: left;
+    color:#9525A8;
+    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+@media (min-width: 600px) {
+    .contact-big-header {
+        font-size: 3rem;
+        text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8);
+    }
+}
+@media (min-width: 768px) {
+    .contact-big-header {
+        font-size: 4rem;
+        text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8);
+        margin-bottom: 2.5%;
+    }
+    .contact-header {
+        font-size: 3rem;
+        letter-spacing: .17rem;
+        margin-bottom: -.5%;
+        text-shadow: -.1rem .1rem rgba(0,0,0,.8);
+        margin-bottom: 2%;
+    }
+    .contact-sub-header {
+        font-size: 1.2rem;
+        margin-left: 8%;
+    }
+    .contact-p {
+        margin-left: 15%;
+        margin-top: -2%;
+        font-size: 1rem;
+    }
+    
+    .contact-button {
+        text-align: center;
+        border-width: .3rem;
+        font-size: 1.2rem;
+        width: 20%;
+        margin-left: 8%;
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 1024px) {
+    .contact-big-header {
+        font-size: 4rem;
+        text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8);
+    }
+}
+
+@media (min-width: 1250px) {
+    .contact-big-header {
+        font-size: 5rem;
+        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+    }
+}
+
+@media (min-width: 1800px) {
+    .contact-big-header {
+        font-size: 6rem;
+        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+    }
+}

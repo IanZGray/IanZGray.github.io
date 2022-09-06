@@ -10,25 +10,272 @@ import '../../App.css';
 
 function Home() {
   return (
-    <Container fluid className="pages">
-                <Row className="first-row">
-                    {/* <Col>
-                        <Image src={profPic} fluid roundedCircle className="profilePic"/>
-                    </Col>
-                    <Col xs={9} className='bio-bubble'>
-                        <h1 className="titles">I am Ian Gray</h1>
-                        <h1 className="sub-title">And I'm a Web Developer</h1>
-                    </Col> */}
-                    <Col xs={{span:5, offset: 5}} className='bio-bubble'>
-                        <h1 className="titles">Ian<br/>Gray</h1>
-                        <h1 className="sub-title">Web Developer</h1>
-                    </Col>
-                </Row>
-                <Row className="second-row">
-                    {/* <h1 > second row</h1> */}
-                </Row>
+    <div id="backround-home-color">
+        <div className="triangle-columns">
+        <div className="triangles-odd">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+        </div>
+        <div className="triangles-even">
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+        </div>
 
-    </Container>
+        <div className="triangles-odd" id="three">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+        </div>
+
+        <div className="triangles-even" id="four">
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+        </div>
+
+        <div className="triangles-odd" id="five">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+        </div>
+
+        <div className="triangles-even" id="six">
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+        </div>
+
+        <div className="triangles-odd" id="seven">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+        </div>
+
+        <div className="triangles-even" id="eight">
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+        </div>
+
+        <div className="triangles-odd" id="nine">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+        </div>
+
+        <div className="triangles-even" id="ten">
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+            <div className="triangle-down-var"></div>
+            <div className="triangle-up-var"></div>
+        </div>
+
+        <div className="triangles-odd" id="eleven">
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+            <div className="triangle-up"></div>
+            <div className="triangle-down"></div>
+        </div>
+
+        </div>
+
+
+        <Container fluid className="pages front-card" id="home">
+        
+            <Row className="first-row">
+                <Col xs={{span:5, offset: 5}} className='bio-bubble'>
+                    <h1 className="titles">Ian<br/>Gray</h1>
+                    <h1 className="sub-title">Web Developer</h1>
+                </Col>
+            </Row>
+            <Row className="second-row">
+                {/* <h1 > second row</h1> */}
+            </Row>
+
+        </Container>
+
+    </div>
+
   )
 }
 
