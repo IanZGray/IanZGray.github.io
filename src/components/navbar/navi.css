@@ -6,32 +6,33 @@ body{
 }
 
 .meauto {
-    color:black;
-    font-family: 'News Cycle', sans-serif;
+    color:#fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     padding-left: 1em;
+    background-color: #14365d;
 }
 .meauto:hover {
     text-decoration: none;
     color:cyan;
 }
 .meautobrand {
-    color:rgb(33, 9, 36);
+    color:cyan;
     font-size: 1.5em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
 .endTag {
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-style: italic;
     text-align: right;
     padding-right: 2vh;
     font-size: 1.5rem;
-    color: cyan;
+    color: #fdf5df;
 }
 nav {
-    background-color:white;
+    background-color: #14365d;
 }
 
 @media (min-width: 1px) {

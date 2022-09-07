@@ -2,11 +2,9 @@ body {
     overflow-x: hidden;
 }
 #backround-home-color {
-    background-color: white;
+    background-color: #14365d;
     z-index: 5;
     position:relative;
-    /* margin-left: 50%; */
-    
 }
 .triangles-odd {
     display: flex;
@@ -108,8 +106,8 @@ body {
  
 .titles{
     text-align: right;
-    color: cyan;
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    color: #fdf5df;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 1.2rem;
@@ -119,8 +117,8 @@ body {
 .sub-title {
     text-align: right;
     margin-right: 8.5%;
-    color:magenta;
-    font-family: 'News Cycle', sans-serif;
+    color:#fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-size: .7rem;
     font-weight: lighter;
     padding-bottom: 1vw;
@@ -130,6 +128,7 @@ body {
 .bio-bubble {
     background-color: black;
     box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6);
+    border-radius: 25px;
 } 
 
 .first-row {

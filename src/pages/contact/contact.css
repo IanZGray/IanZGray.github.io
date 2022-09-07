@@ -4,22 +4,25 @@
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
 }
 .contact-button {
+    max-width: 15%;
     text-align: center;
     font-size: 1rem;
     background-color: rgba(0,0,0,0);
-    border-color: #9525A8;
+    border-color: black;
     border-width: .2rem;
-    color: #9525A8;
-    font-family: 'News Cycle', sans-serif;
+    color: #fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: justify;
     border-style: solid;
     margin-bottom: 2%;
     margin-right: 15%;
+    border-radius: 25px;
 }
 .contact-button:hover {
-    background-color: #9525A8;
-    color: yellow;
+    background-color: #fdf5df;
+    color: black;
+    border-color: #fdf5df;
 }
 
 .contact-contents {
@@ -40,8 +43,8 @@
 
 .contact-sub-header {
     text-align: left;
-    color:#9525A8;
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    color:#fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
     margin-left: 15%;

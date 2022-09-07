@@ -1,10 +1,10 @@
 h1{
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: cyan;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #14365d;
     overflow-x: hidden;
 }
 .pages {
@@ -12,7 +12,7 @@ body {
 }
 
 .featured {
-    background-color: white;
+    background-color: #14365d;;
 }
 #tablet-up {
     display: none;
@@ -23,13 +23,13 @@ body {
     text-align: center;
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
     margin-bottom: 10%;
-    margin-top: -5%;
+    margin-top: 10%;
 }
 p {
     font-size: 1rem;
-    color:#9525A8;
-    font-family: 'News Cycle', sans-serif;
-    font-weight: 600;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 600; */
     text-align: justify;
     margin-bottom: .5rem;
 }
@@ -42,19 +42,18 @@ p {
 .yellow-box {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: .3rem;
-    border-color: yellow;
-    box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
+    background: rgb(185,153,190);
+    background: linear-gradient(240deg, rgba(185,153,190,1) 0%, rgba(191,142,175,1) 36%, rgba(216,92,39,1) 75%);
+    border-radius: 10px;
 }
 .mobile-box {
-    background-color: rgb(255, 255, 255);
+    background-color: #fdf5df;
     border-style: solid;
     border-width: .3rem;
-    border-color: yellow;
+    /* border-color: yellow; */
     box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
     margin-bottom: 5%;
+    border-radius: 10px;
 }
 .bio {
     margin-bottom: 1%;
@@ -63,15 +62,15 @@ p {
 .header {
     font-size: 2rem;
     margin-bottom: -.5%;
-    color:cyan;
+    color:#fdf5df;
     text-shadow: -.1rem .1rem .08rem rgba(0,0,0,.8);
 }
 .sub-header {
     font-size: 1rem;
     text-align: center;
-    color:#9525A8;
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
-    font-weight: bold;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
     padding-bottom: .5%;
 }
 .right {
@@ -85,31 +84,36 @@ p {
     height: 100%;
     object-fit: cover;
     column-fill: 5;
+    border-radius: 10px;
 }
 .descrip {
     max-width: 50%;
 }
 .project-buttons {
+    min-width: 20%;
+    text-align: center;
     font-size: 1rem;
     background-color: rgba(0,0,0,0);
-    border-color: #9525A8;
+    border-color: black;
     border-width: .2rem;
-    color: #9525A8;
-    font-family: 'News Cycle', sans-serif;
+    color: black;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    text-align: justify;
     border-style: solid;
     margin-bottom: 2%;
+    border-radius: 25px;
 }
 .project-buttons:hover {
-    background-color: #9525A8;
-    color: yellow;
+    background-color: #fdf5df;
+    color: black;
+    border-color: #fdf5df;
 }
 .languages {
     font-size: 1rem;
     color: black;
     text-align: center;
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     margin-bottom: .5rem;
 }
 @media (min-width: 402px){
@@ -119,35 +123,29 @@ p {
         margin-right: 2%;
     }
 }
+@media (min-width: 500px){
+    .big-header {
+        margin-top: 15%;
+    }
+}
 @media (min-width: 600px){
 
     .big-header {
         font-size: 3rem;
-        text-align: center;
         text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8);
-        margin-top: 0%;
+        margin-top: 15%;
     }
     p {
         font-size: 1rem;
-        color:#9525A8;
-        font-family: 'News Cycle', sans-serif;
-        font-weight: 600;
-        text-align: justify;
         margin-bottom: .5rem;
     }
     .project-rows {
         margin-top: 2.5%;
         margin-bottom: 2.5%;
-        display: flex;
-        flex-direction: row;
+
     }
     .yellow-box {
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(255, 255, 255);
-        border-style: solid;
         border-width: .3rem;
-        border-color: yellow;
         box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
     }
     .bio {
@@ -156,15 +154,11 @@ p {
     .header {
         font-size: 2rem;
         margin-bottom: -.5%;
-        color:cyan;
         text-shadow: -.05rem .05rem .05rem rgba(0,0,0,.8);
     }
     .sub-header {
         font-size: 1rem;
-        text-align: center;
-        color:#9525A8;
-        font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
-        font-weight: bold;
+
         padding-bottom: .5%;
     }
     .right {
@@ -187,39 +181,17 @@ p {
     }
     .project-buttons {
         font-size: 1.2rem;
-        background-color: rgba(0,0,0,0);
         border-width: .3rem;
         margin-bottom: 2%;
     }
-    .project-buttons:hover {
-        background-color: #9525A8;
-        color: yellow;
-    }
+
     .languages {
         font-size: 1rem;
-        color: black;
-        text-align: center;
-        font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
         margin-bottom: .5rem;
     }
     }
 
-@media (min-width: 620px) {
-    .big-header{
-        margin-top: -4%;
-    }
-}
 
-@media (min-width: 650px) {
-    .big-header {
-        margin-top: -5%;
-    }
-}
-@media (min-width: 750px) {
-    .big-header {
-        margin-top: 0%;
-    }
-}
 @media (min-width: 768px){
 
     #tablet-up {
@@ -232,13 +204,12 @@ p {
         font-size: 4rem;
         text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8);
         margin-bottom: 2.5%;
-        margin-top: -5%;
+        margin-top: 10%;
     }
     p {
         font-size: .7em;
     }
     .yellow-box {
-        background-color: rgb(255, 255, 255);
         border-width: .3rem;
         box-shadow: -.4rem .4rem .3rem .1rem rgba(0,0,0,.8);
     }
@@ -262,7 +233,6 @@ p {
         max-width: 50%;
     }
     .project-buttons {
-        background-color: rgba(0,0,0,0);
         border-width: .2rem;
         font-size: .8rem;
         margin-bottom: 2%;
@@ -281,13 +251,13 @@ p {
 
 @media (min-width:830px){
     .big-header{
-        margin-top: -2.5%;
+        margin-top: 12.5%;
     }
 }
     
 @media (min-width:900px){
     .big-header {
-        margin-top: 2.5%;
+        margin-top: 17.55%;
     }
 }
 @media (min-width: 1024px){
@@ -295,13 +265,12 @@ p {
     .big-header {
         font-size: 4rem;
         text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8);
-        margin-top: -5%;
+        margin-top: 15%;
     }
     p {
         font-size: .9rem;
     }
     .yellow-box {
-        background-color: rgb(255, 255, 255);
         border-width: .3rem;
         box-shadow: -.6rem .6rem .3rem .1rem rgba(0,0,0,.8);
     }
@@ -325,7 +294,6 @@ p {
         max-width: 50%;
     }
     .project-buttons {
-        background-color: rgba(0,0,0,0);
         border-width: .3rem;
         font-size: .9rem;
         margin-bottom: 2%;
@@ -337,23 +305,12 @@ p {
     
 }
 
-@media (min-width: 1080px){
-    .big-header{
-        margin-top: 0%;
-    }
-}
-@media (min-width: 1150px){
-    .big-header{
-        margin-top: 0%;
-    }
-}
-
 @media (min-width: 1250px){
     
     .big-header {
         font-size: 5rem;
         text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
-        margin-top: -5%;
+        margin-top: 12.5%;
     }
     p {
         font-size: 1.1rem;
@@ -371,11 +328,9 @@ p {
     }
     .pics {
         width: 100%;
-        /* transform: translate(0%,50%); */
     }
     .project-buttons {
         font-size: 1rem;
-        /* margin-right: 10%; */
         margin-bottom: 2%;
     }
     .languages {
@@ -385,11 +340,14 @@ p {
 }
 @media (min-width: 1400px){
     .big-header{
-        margin-top: 0%;
+        margin-top: 15%;
     }
 }
     
 @media (min-width: 1550px){
+    .big-header {
+        margin-top: 17.5%;
+    }
     p {
         font-size: 1.25em;
     }

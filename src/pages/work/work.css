@@ -1,3 +1,6 @@
+p {
+    color: #fdf5df;
+}
 #tablet-view {
     display: none;
 }
@@ -25,8 +28,8 @@
 }
 .work-sub-header {
     text-align: left;
-    color:#9525A8;
-    font-family: 'Playfair Display SC', serif, 'Erica One', cursive;
+    color:#fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
     margin-left: 6%;
@@ -40,10 +43,10 @@
 
 .work-button {
     background-color: rgba(0,0,0,0);
-    border-color: #9525A8;
+    border-color: black;
     border-width: .2rem;
-    color: #9525A8;
-    font-family: 'News Cycle', sans-serif;
+    color: #fdf5df;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     border-style: solid;
@@ -51,17 +54,20 @@
     /* margin-left: 8%; */
     text-align: center;
     margin-bottom: 10%;
+    border-radius: 25px;
 }
 .work-button:hover {
-    background-color: #9525A8;
-    color: yellow;
+    background-color: #fdf5df;
+    color: black;
+    border-color: #fdf5df;
 }
 .work-pics {
     width: 100%;
     border-style: solid;
     border-width: .3rem;
-    border-color: yellow;
+    /* border-color: yellow; */
     margin-bottom: 1rem;
+    border-radius: 10px;
 }
 
 @media (min-width: 600px) {
