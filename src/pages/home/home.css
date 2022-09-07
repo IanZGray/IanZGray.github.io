@@ -5,6 +5,7 @@ body {
     background-color: #14365d;
     z-index: 5;
     position:relative;
+    overflow-x: hidden;
 }
 .triangles-odd {
     display: flex;
@@ -54,10 +55,6 @@ body {
 	border-bottom: 7.5vw solid rgba(0, 255, 255, .5);
     border-radius: 49%;
 }
-.triangle-up:hover{
-    border-bottom: 7.5vw solid rgba(0, 255, 255, .75);
-    border-radius: 25%;
-}
 
 .triangle-up-var {
 	width: 0;
@@ -67,10 +64,7 @@ body {
 	border-bottom: 7.5vw solid rgba(0, 255, 255, .5);
     border-radius: 49%;
 }
-.triangle-up-var:hover{
-    border-bottom: 7.5vw solid rgba(255, 0, 255, .75);
-    border-radius: 25%;
-}
+
 
 .triangle-down {
 	width: 0;
@@ -83,10 +77,6 @@ body {
     border-radius: 49%;
 }
 
-.triangle-down:hover {
-    border-top: 7.5vw solid rgba(255,0,255, .75);
-    border-radius: 25%;
-}
 
 .triangle-down-var {
 	width: 0;
@@ -99,11 +89,7 @@ body {
     border-radius: 49%;
 }
 
-.triangle-down-var:hover {
-    border-top: 7.5vw solid rgba(255,255,0, .75);
-    border-radius: 25%;
-}
- 
+
 .titles{
     text-align: right;
     color: #fdf5df;
@@ -208,6 +194,27 @@ body {
 
 
 }
+@media (min-width: 1000px){
+    
+    .triangle-up:hover{
+        border-bottom: 7.5vw solid rgba(0, 255, 255, .75);
+        border-radius: 25%;
+    }
+    .triangle-down:hover {
+        border-top: 7.5vw solid rgba(255,0,255, .75);
+        border-radius: 25%;
+    }
+    .triangle-up-var:hover{
+        border-bottom: 7.5vw solid rgba(255, 0, 255, .75);
+        border-radius: 25%;
+    }
+    .triangle-down-var:hover {
+        border-top: 7.5vw solid rgba(255,255,0, .75);
+        border-radius: 25%;
+    }
+    
+
+}
 
 @media (min-width: 1024px){
     
@@ -235,7 +242,6 @@ body {
     .second-row {
         margin-top: 15%;
     }
-
 }
 
 @media (min-width: 1250px){
