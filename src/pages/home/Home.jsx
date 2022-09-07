@@ -266,6 +266,9 @@ function Home() {
                     <h1 className="sub-title">Web Developer</h1>
                 </Col>
             </Row>
+            <Row className="second-row">
+                {/* <h1 > second row</h1> */}
+            </Row>
 
         </Container>
 
