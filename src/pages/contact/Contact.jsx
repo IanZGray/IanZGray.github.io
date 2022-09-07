@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 import './contact.css';
 
-const contactParagraph = `Reach out to me at one of the links below`
+const contactParagraph = `Reach out to me through one of the links below`
 
 const mail = ()=>{
   window.open('mailto:ianzacharygray@gmail.com', '_self')
