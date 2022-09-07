@@ -63,7 +63,7 @@ p {
     font-size: 2rem;
     margin-top: 2%;
     margin-bottom: -.5%;
-    color:#fdf5df;
+    color:cyan;
     text-shadow: -.1rem .1rem .08rem rgba(0,0,0,.8);
 }
 .sub-header {
@@ -75,10 +75,10 @@ p {
     padding-bottom: .5%;
 }
 .right {
-    text-align: right;
+    text-align: center;
 }
 .left {
-    text-align: left;
+    text-align: center;
 }
 .pics {
     width: 100%;
@@ -171,11 +171,9 @@ p {
         padding-bottom: .5%;
     }
     .right {
-        text-align: right;
         column-span: 7;
     }
     .left {
-        text-align: left;
         column-span: 3;
     }
     .pics {
@@ -251,9 +249,11 @@ p {
         margin-bottom: .5rem;
     }
     .right {
+        text-align: right;
         column-span: 7;
     }
     .left {
+        text-align: left;
         column-span: 5;
     }  
 }

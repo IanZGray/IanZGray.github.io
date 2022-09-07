@@ -128,7 +128,7 @@ body {
 .bio-bubble {
     background-color: black;
     box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6);
-    border-radius: 25px;
+    border-radius: 10px;
 } 
 
 .first-row {
@@ -225,6 +225,7 @@ body {
     
     .bio-bubble {
         box-shadow: -.6rem .6rem .4rem .1rem rgba(0,0,0,.8);
+        border-radius: 25px;
     } 
     
     .first-row {
