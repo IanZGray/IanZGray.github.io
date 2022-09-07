@@ -2,11 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Image from 'react-bootstrap/Image';
 
 import './home.css';
 import '../../App.css';
-// import profPic from '../../images/ProfilePic.jpg';
 
 function Home() {
   return (
@@ -267,9 +265,6 @@ function Home() {
                     <h1 className="titles">Ian<br/>Gray</h1>
                     <h1 className="sub-title">Web Developer</h1>
                 </Col>
-            </Row>
-            <Row className="second-row">
-                {/* <h1 > second row</h1> */}
             </Row>
 
         </Container>
