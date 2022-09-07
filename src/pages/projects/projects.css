@@ -22,8 +22,8 @@ body {
     font-size: 2.2rem;
     text-align: center;
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-top: -5%;
 }
 p {
     font-size: 1rem;
@@ -52,8 +52,8 @@ p {
 .mobile-box {
     border-style: solid;
     border-width: .3rem;
-        border-color:#fdf5df;
-    box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
+    border-color:#fdf5df;
+    box-shadow: -.35rem .35rem .3rem .05rem rgba(0,0,0,.8);
     margin-bottom: 5%;
     border-radius: 10px;
     background: rgb(167,87,180);
@@ -137,7 +137,6 @@ p {
 }
 @media (min-width: 500px){
     .big-header {
-        margin-top: 15%;
         font-size: 3rem;
     }
 }
@@ -146,7 +145,6 @@ p {
     .big-header {
         font-size: 3rem;
         text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8);
-        margin-top: 15%;
     }
     p {
         font-size: 1rem;
@@ -215,7 +213,7 @@ p {
         font-size: 4rem;
         text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8);
         margin-bottom: 2.5%;
-        margin-top: 10%;
+        margin-top: 0%;
     }
     p {
         font-size: .7em;
@@ -262,23 +260,11 @@ p {
     }  
 }
 
-@media (min-width:830px){
-    .big-header{
-        margin-top: 12.5%;
-    }
-}
-    
-@media (min-width:900px){
-    .big-header {
-        margin-top: 17.55%;
-    }
-}
 @media (min-width: 1024px){
     
     .big-header {
         font-size: 4rem;
         text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8);
-        margin-top: 15%;
     }
     p {
         font-size: .9rem;
@@ -323,7 +309,6 @@ p {
     .big-header {
         font-size: 5rem;
         text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
-        margin-top: 12.5%;
     }
     p {
         font-size: 1.1rem;
@@ -349,18 +334,9 @@ p {
     .languages {
         font-size: 1.1rem;
     }
-    
 }
-@media (min-width: 1400px){
-    .big-header{
-        margin-top: 15%;
-    }
-}
-    
+
 @media (min-width: 1550px){
-    .big-header {
-        margin-top: 17.5%;
-    }
     p {
         font-size: 1.25em;
     }

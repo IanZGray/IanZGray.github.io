@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import './home.css';
 import '../../App.css';
+import ResumeButton from '../../components/resumeButton/ResumeButton';
 
 function Home() {
   return (
@@ -258,10 +259,13 @@ function Home() {
         </div>
 
 
-        <Container fluid className="pages front-card" id="home">
+        <Container fluid className="home-page front-card" id="home">
         
             <Row className="first-row">
-                <Col xs={{span:5, offset: 5}} className='bio-bubble'>
+                <Col xs={{span: 5}}>
+                    <ResumeButton/>
+                </Col>
+                <Col xs={{span:5}} className='bio-bubble'>
                     <h1 className="titles">Ian<br/>Gray</h1>
                     <h1 className="sub-title">Web Developer</h1>
                 </Col>

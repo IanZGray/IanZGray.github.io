@@ -6,6 +6,10 @@ body {
     z-index: 5;
     position:relative;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+.home-page {
+    margin-bottom: 10%;
 }
 .triangles-odd {
     display: flex;
