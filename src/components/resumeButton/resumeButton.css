@@ -8,7 +8,7 @@
     transform: translate(-1.5rem, 3.2rem);
     /* box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6); */
     /* box-shadow: 0 0 50px 15px #48abe0; */
-    box-shadow: 0 0 50px 15px #f9ff55;
+    box-shadow: 0 0 10px 5px #ffffff;
 
     background: rgb(0,255,255);
     background: linear-gradient(240deg, rgba(0,255,255,1) 0%, rgba(253,245,223,1) 78%);
@@ -23,10 +23,10 @@
 
 @keyframes myanim {
     50% {
-        box-shadow: 0 0 30px 15px #f9ff55;;
+        box-shadow: 0 0 30px 15px #f9ff55;
     }
     50% {
-        box-shadow: 0 0 50px 20px #ffffff;;
+        box-shadow: 0 0 30px 20px #f9ff55;
     }
 }
 
