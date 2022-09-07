@@ -42,9 +42,9 @@ p {
 .yellow-box {
     display: flex;
     flex-direction: row;
-    background: rgb(185,153,190);
-    background: linear-gradient(240deg, rgba(185,153,190,1) 0%, rgba(191,142,175,1) 36%, rgba(216,92,39,1) 75%);
     border-radius: 10px;
+    background: rgb(167,87,180);
+    background: linear-gradient(240deg, rgba(167,87,180,1) 0%, rgba(182,119,179,1) 71%, rgba(195,147,179,1) 100%);
 }
 .mobile-box {
     background-color: #fdf5df;
@@ -85,6 +85,10 @@ p {
     object-fit: cover;
     column-fill: 5;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 2%;
+    border-color: black;
+    box-shadow: -.2rem .2rem .3rem rgba(0,0,0,.8);
 }
 .descrip {
     max-width: 50%;
