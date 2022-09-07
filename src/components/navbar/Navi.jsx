@@ -17,10 +17,10 @@ function Navi() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <a className="meauto" href="#">Home</a>
-          <a className="meauto" href="#projects">Featured Projects</a>
-          <a className="meauto" href="#work">Work</a>
-          <a className="meauto" href="#contact">Contact</a>
+          <a className="link-font" href="#">Home</a>
+          <a className="link-font" href="#projects">Featured Projects</a>
+          <a className="link-font" href="#work">Work</a>
+          <a className="link-font" href="#contact">Contact</a>
         </ul>
       </div>
       <p className="navbar-nav endTag start-70 end-0" id="name-corner">Ian Gray</p>

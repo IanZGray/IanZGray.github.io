@@ -5,15 +5,15 @@ body{
     transform: translate(15%,0%);
 }
 
-.meauto {
-    color:#fdf5df;
+.link-font {
+    color: #fdf5df;
+    background-color: #14365d;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     padding-left: 1em;
-    background-color: #14365d;
 }
-.meauto:hover {
+.link-font:hover {
     text-decoration: none;
     color:cyan;
 }
@@ -31,9 +31,7 @@ body{
     font-size: 1.5rem;
     color: #fdf5df;
 }
-nav {
-    background-color: #14365d;
-}
+
 
 @media (min-width: 1px) {
     #name-corner{
