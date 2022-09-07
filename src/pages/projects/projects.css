@@ -19,7 +19,7 @@ body {
 }
 
 .big-header {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
     margin-bottom: 10%;
@@ -134,6 +134,7 @@ p {
 @media (min-width: 500px){
     .big-header {
         margin-top: 15%;
+        font-size: 3rem;
     }
 }
 @media (min-width: 600px){

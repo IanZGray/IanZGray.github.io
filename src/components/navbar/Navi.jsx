@@ -3,7 +3,7 @@ import './navi.css';
 
 function Navi() {
   return (
-    <nav style={{zIndex:1}} className="navbar navbar-light pos-f-t top-0 start-0 end-0 navbar-expand-md">
+    <nav style={{zIndex:1}} className="navbar navbar-dark pos-f-t top-0 start-0 end-0 navbar-expand-md">
       <a className="navbar-brand meautobrand" href="/" alt="logo">
         <img 
           alt="logo"

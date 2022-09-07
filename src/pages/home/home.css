@@ -117,10 +117,10 @@ body {
 .sub-title {
     text-align: right;
     margin-right: 8.5%;
-    color:#fdf5df;
+    color:cyan;
     font-family: 'Roboto', sans-serif;
     font-size: .7rem;
-    font-weight: lighter;
+    font-weight: 300;
     padding-bottom: 1vw;
 }
 
@@ -150,9 +150,8 @@ body {
     .titles{
         font-size: 2rem;
     }
-    
     .sub-title {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 @media (min-width: 539px){

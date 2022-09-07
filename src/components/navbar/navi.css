@@ -32,7 +32,6 @@ body{
     color: #fdf5df;
 }
 
-
 @media (min-width: 1px) {
     #name-corner{
         display: none;
