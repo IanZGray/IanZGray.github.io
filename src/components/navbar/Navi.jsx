@@ -1,4 +1,4 @@
-import logo from '../../images/logoblack.png';
+import logo from '../../images/logoUpdateDark.png';
 import './navi.css';
 
 function Navi() {
