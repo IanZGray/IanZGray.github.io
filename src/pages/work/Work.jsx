@@ -16,21 +16,23 @@ function work() {
     <Container className='pages' id="work">
     <h1 className='work-big-header'>Work</h1>
     <div id="mobile-view">
-      <Col className='side-box' xs={{span: 10, offset: 1}}>
+
               <h1 className='work-header'>Gray Design</h1>
               <h3 className='work-sub-header'>Branding & Web Design</h3>
               <p className='work-p'>My small design business where you can find examples of my work in the UI branch of web development.</p>
               <img src={design} alt="Gray Design"  className="work-pics"/>
               <a href="https://www.designwithgray.com/" target="_blank" rel="noreferrer"><button className="work-button" alt="link to design page">+ More</button></a>
-          </Col>
-          <Col className='middle-box' xs={{span: 10, offset: 1}}>
+
+                <div className='line'></div>
+
               <h1 className='work-header'>Github</h1>
               <h3 className='work-sub-header'>All Currently Listed Repos</h3>
               <p className='work-p'>If you view examples of my code here, we can talk about it!</p>
               <img src={git} alt="GitHub"  className="work-pics"/>
               <a href="https://github.com/IanZGray" target="_blank" rel="noreferrer"><button className="work-button" alt="link to github">+ More</button></a>
-          </Col>
-          <Col className='side-box' xs={{span: 10, offset: 1}}>
+              
+              <div className='line'></div>
+
               <div className='cont'>
               <h1 className='work-header'>Books</h1>
               <h3 className='work-sub-header'>Fiction & Non-Fiction</h3>
@@ -38,7 +40,9 @@ function work() {
               <img src={books} alt="books"  className="work-pics"/>
               <a href="https://www.amazon.com/~/e/B09NZ7DCS4" target="_blank" rel="noreferrer"><button className="work-button" alt="link to books">+ More</button></a>
               </div>
-          </Col>
+
+              <div className='line'></div>
+
     </div>
     <div id="tablet-view"> 
     

@@ -11,8 +11,9 @@
 .work-big-header {
     font-size: 3rem;
     text-align: center;
-    text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
-    margin-bottom: -10%;
+    /* text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8); */
+    color: #14365d;
+    margin-bottom: 10%;
 }
 .work-header {
     text-align:center;
@@ -21,27 +22,33 @@
     color:cyan;
     text-shadow: -.09rem .08rem rgba(0,0,0,.8);
     margin-bottom: 2%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .work-sub-header {
     text-align: left;
-    color:#fdf5df;
+    color:black;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
     margin-left: 6%;
 }
 .work-p {
-    color: #fdf5df;
+    color: black;
     margin-left: 15%;
     font-size: 1rem;
+}
+.work-pics {
+    width: 108%;
+    height: 50%;
+    margin-left: -4%;
+    margin-bottom: 1rem;
 }
 
 .work-button {
     background-color: rgba(0,0,0,0);
     border-color: black;
     border-width: .2rem;
-    color: #fdf5df;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -49,7 +56,7 @@
     width: 50%;
     height: 2.5rem;
     text-align: center;
-    /* margin-bottom: 10%; */
+    margin-bottom: 2%;
     border-radius: 25px;
 }
 .work-button:hover {
@@ -57,20 +64,20 @@
     color: black;
     border-color: #fdf5df;
 }
-.work-pics {
-    width: 100%;
-    border-style: solid;
-    border-width: .2rem;
-    border-color:#fdf5df;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
+
+.line {
+    background-color: black;
+    height: .2rem;
+    width: 106%;
+    margin-left: -3%;
+    margin-bottom: 10%;
 }
+
 
 @media (min-width: 600px) {
     .work-big-header {
         font-size: 3rem;
-        text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8);
+        /* text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8); */
     }
 }
 @media (min-width: 768px) {
@@ -89,7 +96,7 @@
     }
     .work-big-header {
         font-size: 4rem;
-        text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8);
+        /* text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8); */
         margin-bottom: 2.5%;
     }
     .work-header {
@@ -103,11 +110,24 @@
         font-size: 1.2rem;
         margin-left: 8%;
     }
+    /* .work-sub-header {
+        text-align: left;
+        color:#fdf5df;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-left: 6%;
+    } */
     .work-p {
         margin-left: 15%;
         margin-top: -2%;
         font-size: 1rem;
     }
+    /* .work-p {
+        color: #fdf5df;
+        margin-left: 15%;
+        font-size: 1rem;
+    } */
     
     .work-button {
         border-width: .3rem;
@@ -115,28 +135,50 @@
         width: 60%;
         margin-left: 8%;
         margin-bottom: 3%;
+
+        /* color: #fdf5df; */
+        color: black;
     }
+
     .work-pics {
         border-width: .3rem;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        border-style: solid;
+        border-color:#fdf5df;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
     }
+
+    /* .work-pics {
+        width: 100%;
+        border-style: solid;
+        border-width: .2rem;
+        border-color:#fdf5df;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
+    } */
 }
 @media (min-width: 1024px) {
     .work-big-header {
         font-size: 4rem;
-        text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8);
+        /* text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8); */
     }
 }
 
 @media (min-width: 1250px){
     .work-big-header {
         font-size: 5rem;
-        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+        /* text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8); */
     }
 }
 
 @media (min-width: 1800px){
     .work-big-header {
         font-size: 6rem;
-        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+        /* text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8); */
     }
 }

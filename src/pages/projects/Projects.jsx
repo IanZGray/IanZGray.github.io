@@ -25,7 +25,6 @@ function Projects() {
         <h1 className="big-header">Featured Projects</h1>
                 <Row className="project-rows">
                     <div id="mobile-view">
-                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
 
                             <h1 className="header right">Plant Here</h1>
                             <h2 className="sub-header right">AWS Sustainability Project</h2>
@@ -33,8 +32,7 @@ function Projects() {
                             <p>{awsParagraph}</p>
                             <p className="languages">React.js, Node.js, JavaScript, CSS, HTML</p>
                             <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-
-                        </Col>
+                            <div className='line'></div>
 
                     </div>
                     <div id="tablet-up">
@@ -55,8 +53,6 @@ function Projects() {
                 <Row className="project-rows">
                     <div id="mobile-view">
 
-                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
-
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <img src={badBank} alt="Bad Bank"  className="pics"/>
@@ -64,8 +60,7 @@ function Projects() {
                             <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-
-                        </Col>
+                            <div className='line'></div>
 
                     </div>
                     <div id="tablet-up">
@@ -86,16 +81,13 @@ function Projects() {
                 <Row className="project-rows">
                     <div id="mobile-view">
 
-                        <Col className="mobile-box" xs={{span: 10, offset: 1}}>
-
                             <h1 className="header right">this.website</h1>
                             <h2 className="sub-header right">My Development Portfolio</h2>
                             <img src={portfolioApp} alt="Fire Watch"  className="pics"/>
                             <p>{fireWatchParagraph}</p>
                             <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-                        
-                        </Col>
+                            <div className='line'></div>
 
                     </div>
                     <div id="tablet-up">
