@@ -17,7 +17,6 @@ function Navi() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <a className="link-font" href="#">Home</a>
           <a className="link-font" href="#projects">Featured Projects</a>
           <a className="link-font" href="#work">Work</a>
           <a className="link-font" href="#contact">Contact</a>
