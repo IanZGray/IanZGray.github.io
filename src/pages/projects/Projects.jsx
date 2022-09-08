@@ -8,7 +8,9 @@ import plantHere from '../../images/plantHereImage.jpg';
 import badBank from '../../images/badBankimg.jpg';
 import portfolioApp from '../../images/portfolioApp.jpg';
 
-
+import mobilePlant from '../../images/mobilePlant.jpg';
+import mobileBank from '../../images/badbankmobile.png';
+import mobilePort from '../../images/mobilePort.jpg';
 
 import '../../App.css';
 
@@ -23,18 +25,19 @@ function Projects() {
   return (
     <Container fluid className="pages featured" id="projects">
         <h1 className="big-header">Featured Projects</h1>
-                <Row className="project-rows">
+
                     <div id="mobile-view">
 
                             <h1 className="header right">Plant Here</h1>
                             <h2 className="sub-header right">AWS Sustainability Project</h2>
-                            <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
+                            <img src={mobilePlant} alt="AWS Sustainability Project"  className="pics"/>
                             <p>{awsParagraph}</p>
                             <p className="languages">React.js, Node.js, JavaScript, CSS, HTML</p>
                             <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <div className='line'></div>
 
                     </div>
+                    <Row className="project-rows">
                     <div id="tablet-up">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
@@ -50,12 +53,12 @@ function Projects() {
                         </Col>
                     </div>
                 </Row>
-                <Row className="project-rows">
+
                     <div id="mobile-view">
 
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
-                            <img src={badBank} alt="Bad Bank"  className="pics"/>
+                            <img src={mobileBank} alt="Bad Bank"  className="pics"/>
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
@@ -63,6 +66,7 @@ function Projects() {
                             <div className='line'></div>
 
                     </div>
+                    <Row className="project-rows">
                     <div id="tablet-up">
                         <Col className="yellow-box" xs={{span: 7, offset: 1}}>
                             <Col xs={{span: 7 }} className='bio'>
@@ -78,22 +82,23 @@ function Projects() {
                         </Col>
                     </div>
                 </Row>
-                <Row className="project-rows">
+
                     <div id="mobile-view">
 
                             <h1 className="header right">this.website</h1>
                             <h2 className="sub-header right">My Development Portfolio</h2>
-                            <img src={portfolioApp} alt="Fire Watch"  className="pics"/>
+                            <img src={mobilePort} alt="portfolio"  className="pics"/>
                             <p>{fireWatchParagraph}</p>
                             <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
                             <div className='line'></div>
 
                     </div>
+                    <Row className="project-rows">
                     <div id="tablet-up">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
-                                <img src={portfolioApp} alt="Fire Watch"  className="pics"/>
+                                <img src={portfolioApp} alt="portfolio"  className="pics"/>
                             </Col>
                             <Col xs={{span: 7 }} className='bio'>
                                 <h1 className="header right">this.website</h1>
