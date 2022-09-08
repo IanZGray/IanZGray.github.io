@@ -60,9 +60,9 @@
     border-radius: 25px;
 }
 .work-button:hover {
-    background-color: #fdf5df;
-    color: black;
-    border-color: #fdf5df;
+    background-color: #14365d;
+    color: white;
+    border-color: #14365d;
 }
 
 .line {
