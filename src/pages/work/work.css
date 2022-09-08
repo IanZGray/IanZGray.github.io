@@ -12,6 +12,7 @@
     font-size: 3rem;
     text-align: center;
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
+    margin-bottom: -10%;
 }
 .work-header {
     text-align:center;
@@ -20,7 +21,7 @@
     color:cyan;
     text-shadow: -.09rem .08rem rgba(0,0,0,.8);
     margin-bottom: 2%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .work-sub-header {
     text-align: left;
@@ -46,8 +47,9 @@
     font-weight: 600;
     border-style: solid;
     width: 50%;
+    height: 2.5rem;
     text-align: center;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     border-radius: 25px;
 }
 .work-button:hover {
@@ -110,7 +112,7 @@
     .work-button {
         border-width: .3rem;
         font-size: 1.2rem;
-        width: 40%;
+        width: 60%;
         margin-left: 8%;
         margin-bottom: 3%;
     }

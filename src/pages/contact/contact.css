@@ -4,16 +4,16 @@
     text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8);
 }
 .contact-button {
-    min-width: 15%;
+    width: 40%;
+    height: 2.5rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
     background-color: rgba(0,0,0,0);
     border-color: black;
     border-width: .2rem;
     color: #fdf5df;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    text-align: justify;
     border-style: solid;
     margin-bottom: 2%;
     margin-right: 15%;
@@ -50,6 +50,11 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10%;
+}
+@media (min-width: 300px){
+    .contact-button {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 600px) {

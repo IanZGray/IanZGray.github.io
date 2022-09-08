@@ -100,7 +100,8 @@ p {
     max-width: 50%;
 }
 .project-buttons {
-    min-width: 20%;
+    min-width: 80%;
+    max-width: 100%;
     text-align: center;
     font-size: 1rem;
     background-color: rgba(0,0,0,0);
@@ -128,6 +129,12 @@ p {
     font-weight: bold;
     margin-bottom: .5rem;
 }
+@media (min-width: 274px) {
+    .project-buttons {
+        min-width: 50%;
+        max-width: 75%;
+    }
+}
 @media (min-width: 402px){
     .project-buttons {
         font-size: 1rem;
@@ -138,6 +145,10 @@ p {
 @media (min-width: 500px){
     .big-header {
         font-size: 3rem;
+    }
+    .project-buttons {
+        min-width: 40%;
+        max-width: 50%;
     }
 }
 @media (min-width: 600px){
