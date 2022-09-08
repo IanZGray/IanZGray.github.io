@@ -298,13 +298,10 @@ p {
 
 @media (min-width: 1024px){
     #tablet-view {
-        display: none !important;
+        display: none;
     }
     #desktop-view {
         display: initial;
-    }
-    p {
-        font-size: .9rem;
     }
     .yellow-box {
         border-width: .3rem;

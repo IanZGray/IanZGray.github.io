@@ -63,63 +63,60 @@
 @media (min-width: 600px) {
     .contact-big-header {
         font-size: 3rem;
-        text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8);
+        /* text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8); */
     }
 }
 @media (min-width: 768px) {
     .contact-big-header {
-        font-size: 4rem;
-        text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8);
+        font-size: 8.5vw;
+        /* text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8); */
         margin-bottom: 2.5%;
     }
     .contact-header {
-        font-size: 3rem;
+        font-size: 4vw;
         letter-spacing: .17rem;
         margin-bottom: -.5%;
         text-shadow: -.1rem .1rem rgba(0,0,0,.8);
         margin-bottom: 2%;
     }
     .contact-sub-header {
-        font-size: 1.2rem;
+        font-size: 2vw;
         margin-left: 8%;
     }
     .contact-p {
         margin-left: 15%;
         margin-top: -2%;
-        font-size: 1rem;
+        font-size: 1.5vw;
     }
     
     .contact-button {
         text-align: center;
         border-width: .3rem;
-        font-size: 1.2rem;
+        font-size: 2vw;
         width: 20%;
         margin-left: 8%;
         margin-bottom: 3%;
-    }
-}
-@media (min-width: 992px){
-    .contact-button {
-        max-width: 15%;
+        height: 4vw;
+        width: 20vw;
     }
 }
 @media (min-width: 1024px) {
     .contact-big-header {
         font-size: 4rem;
-        text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8);
+        /* text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8); */
     }
 }
 
 @media (min-width: 1250px) {
     .contact-big-header {
         font-size: 5rem;
-        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+        /* text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8); */
     }
 }
 
 @media (min-width: 1800px) {
     .contact-big-header {
         font-size: 6rem;
-        text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8);
+        /* text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8); */
     }
 }

@@ -44,7 +44,7 @@ function work() {
               <div className='line'></div>
 
     </div>
-    <div id="tablet-view"> 
+    <div id="work-tablet-view"> 
     
     <Row >
         <Col className='side-box' >
