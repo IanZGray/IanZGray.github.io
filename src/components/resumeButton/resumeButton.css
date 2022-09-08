@@ -24,7 +24,7 @@
 
 @keyframes myanim {
     50% {
-        box-shadow: 0 0 15px 5px #f9ff55;
+        box-shadow: 0 0 10px 5px #f9ff55;
     }
 }
 
@@ -73,13 +73,13 @@
         width: 12rem;
         transform: translate(1rem,6rem);
         /* box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6); */
-        box-shadow: 0 0 5px 0px #ffffff;
+        box-shadow: 0 0 2px 0px #ffffff;
     }
 
     @keyframes myanim {
 
         50% {
-            box-shadow: 0 0 20px 10px #f9ff55;
+            box-shadow: 0 0 12px 10px #f9ff55;
         }
     }
 }
