@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 
 
 import plantHere from '../../images/plantHereImage.jpg';
-import badBank from '../../images/badBankimg.jpg';
+import badBank from '../../images/badBanking.jpg';
 import portfolioApp from '../../images/portfolioApp.jpg';
 
 import mobilePlant from '../../images/mobilePlant.jpg';
-import mobileBank from '../../images/badbankmobile.png';
+import mobileBank from '../../images/bankmobile.png';
 import mobilePort from '../../images/mobilePort.jpg';
 
 import '../../App.css';
