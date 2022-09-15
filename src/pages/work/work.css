@@ -177,6 +177,25 @@
         font-size: 5rem;
         /* text-shadow: -.2rem .2rem .2rem rgba(0,0,0,.8); */
     }
+    .work-header {
+        font-size:2.5rem;
+        text-shadow: -.1rem .1rem .1rem rgba(0,0,0,.8);
+    }
+    .work-sub-header {
+        font-size: 1.5rem;
+    }
+    .work-p {
+        font-size: 1rem;
+    }
+    .work-button {
+        font-size: 1.2rem;
+        max-width: 30%;
+        height: auto;
+    }
+    .work-pics {
+        border-width: .11em !important;
+        border-color: yellow;
+    }
 }
 
 @media (min-width: 1800px){
