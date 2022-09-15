@@ -3,7 +3,7 @@ body {
 }
 #backround-home-color {
     /* background-color: #14365d; */
-    background-color: rgb(2,2,2);
+    background-color: rgb(65, 65, 65);
     z-index: 5;
     position:relative;
     overflow-x: hidden;

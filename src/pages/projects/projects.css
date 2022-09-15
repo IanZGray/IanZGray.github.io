@@ -4,12 +4,12 @@ h1{
     color: black;
 }
 body {
-    background-color: rgb(2,2,2);
+    background-color: rgb(65, 65, 65);
     overflow-x: hidden;
 }
 .pages {
     margin-bottom: 2.5%;
-    background-color: rgb(2,2,2);
+    background-color: rgb(65, 65, 65);
 }
 #mobile-view {
     overflow-x: hidden;
@@ -19,7 +19,7 @@ body {
     display: none;
 }
 .featured {
-    background-color: rgb(2,2,2);
+    background-color: rgb(65, 65, 65);
 }
 #tablet-view {
     display: none;
