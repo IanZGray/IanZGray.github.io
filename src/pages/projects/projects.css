@@ -189,7 +189,7 @@ p {
 
     }
     .yellow-box {
-        border-width: .3rem;
+        border-width: .2rem !important;
         box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
     }
     .bio {

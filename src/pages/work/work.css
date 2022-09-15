@@ -12,7 +12,8 @@
     font-size: 2.2rem;
     text-align: center;
     /* text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8); */
-    color: #14365d;
+    /* color: #14365d;s */
+    color: black;
     /* margin-bottom: 10%; */
 }
 .work-header {
@@ -159,12 +160,13 @@
 
 
     .work-pics {
-        border-width: .3rem;
+        border-width: .1rem;
         width: 100%;
         height: auto;
         margin-left: 0%;
         border-style: solid;
-        border-color:#fdf5df;
+        /* border-color:#fdf5df; */
+        border-color: yellow;
         margin-bottom: 1rem;
         border-radius: 10px;
         box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8);
