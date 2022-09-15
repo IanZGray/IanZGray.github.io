@@ -9,6 +9,7 @@ body {
 }
 .pages {
     margin-bottom: 2.5%;
+    background-color: rgb(2,2,2);
 }
 #mobile-view {
     overflow-x: hidden;
@@ -18,7 +19,7 @@ body {
     display: none;
 }
 .featured {
-    background-color: white;
+    background-color: rgb(2,2,2);
 }
 #tablet-view {
     display: none;
