@@ -29,7 +29,8 @@ body {
     text-align: center;
     margin-bottom: 5%;
     margin-top: -5%;
-    color: #14365d;
+    /* color: #14365d; */
+    color: black;
 }
 p {
     font-size: 1rem;

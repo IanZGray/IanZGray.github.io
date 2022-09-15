@@ -2,7 +2,8 @@
     font-size: 3rem;
     text-align: center;
     /* text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8); */
-    color: #14365d;
+    /* color: #14365d; */
+    color: black;
 }
 .contact-button {
     width: 40%;
