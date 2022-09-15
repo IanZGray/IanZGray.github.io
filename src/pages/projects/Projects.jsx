@@ -34,7 +34,7 @@ function Projects() {
                             <img src={mobilePlant} alt="AWS Sustainability Project"  className="pics"/>
                             </div>
                             <p>{awsParagraph}</p>
-                            <p className="languages">React.js, Node.js, JavaScript, CSS, HTML</p>
+                            <p className="languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                             <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <div className='line'></div>
 
@@ -49,7 +49,7 @@ function Projects() {
                                 <h1 className="header right">Plant Here</h1>
                                 <h2 className="sub-header right">AWS Sustainability Project</h2>
                                 <p>{awsParagraph}</p>
-                                <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                                <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
@@ -63,7 +63,7 @@ function Projects() {
                                 <h1 className="header right">Plant Here</h1>
                                 <h2 className="sub-header right">AWS Sustainability Project</h2>
                                 <p>{awsParagraph}</p>
-                                <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                                <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
@@ -78,7 +78,7 @@ function Projects() {
                             <img src={mobileBank} alt="Bad Bank"  className="pics"/>
                             </div>
                             <p>{badBankParagraph}</p>
-                            <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                            <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
                             <div className='line'></div>
@@ -91,7 +91,7 @@ function Projects() {
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <p>{badBankParagraph}</p>
-                            <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                            <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                            </Col>
                             <Col xs={{span: 5}}>
@@ -105,7 +105,7 @@ function Projects() {
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <p>{badBankParagraph}</p>
-                            <p className="languages">React.js, Node.js, Bootstrap, JavaScript, CSS, HTML</p>
+                            <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                            </Col>
                             <Col xs={{span: 5}}>

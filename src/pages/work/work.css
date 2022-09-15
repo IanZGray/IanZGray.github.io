@@ -144,15 +144,19 @@
 
     
     .work-button {
-        border-width: .3rem;
-        font-size: 2vw;
-        width: 60%;
+        border-width: .2rem;
+        /* font-size: 2vw; */
+        width: 40%;
         margin-left: 8%;
         margin-bottom: 3%;
 
         /* color: #fdf5df; */
         color: black;
+        font-size: 1rem;
+        /* max-width: 30%; */
+        height: auto;
     }
+
 
     .work-pics {
         border-width: .3rem;

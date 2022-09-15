@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 }
 #backround-home-color {
-    background-color: #14365d;
+    /* background-color: #14365d; */
     z-index: 5;
     position:relative;
     overflow-x: hidden;
