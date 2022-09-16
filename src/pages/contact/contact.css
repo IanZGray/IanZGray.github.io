@@ -1,3 +1,39 @@
+.contact-reveal{
+    position: relative;
+    opacity: 0;
+  }
+  .contact-reveal.active{
+    opacity: 1;
+  }
+  .active.contact-fade-left {
+    animation: fade-left 1s ease;
+  }
+  .active.contact-button-right {
+    animation: fade-right 1s ease;
+  }
+
+  @keyframes contact-fade-left {
+    0% {
+      transform: translateX(-25vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes contact-fade-right {
+    0% {
+      transform: translateX(25vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 .contact-page {
     display: flex;
     flex-direction: column;

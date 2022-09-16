@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer.jsx';
 import VerticalNav from './components/verticalNav/VerticalNav.jsx';
 
 function App() {
+  
   return (
 
       <div className='App'>

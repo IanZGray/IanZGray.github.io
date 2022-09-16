@@ -6,6 +6,14 @@ body{
   background-color: #AB6B51;
 }
 
+.reveal{
+  position: relative;
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  opacity: 1;
+}
 /* .pages {
   display: flex;
   flex-direction: column;
