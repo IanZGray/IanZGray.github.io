@@ -156,6 +156,7 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 25px;
+    cursor: pointer;
 }
 .project-buttons:hover {
     background-color: #14365d;

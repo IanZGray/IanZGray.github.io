@@ -1,3 +1,16 @@
+.layer-one {
+    position:absolute;
+    z-index: 1;
+}
+.layer-two {
+    position:absolute;
+    z-index: 2;
+}
+.layer-three {
+    position:absolute;
+    z-index: 3;
+}
+
 body {
     overflow-x: hidden;
 }
