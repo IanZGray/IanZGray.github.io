@@ -23,7 +23,7 @@ function work() {
               <img src={design} alt="Gray Design"  className="work-pics"/>
               <a href="https://www.designwithgray.com/" target="_blank" rel="noreferrer"><button className="work-button" alt="link to design page">+ More</button></a>
 
-                <div className='line'></div>
+                {/* <div className='line'></div> */}
 
               <h1 className='work-header'>Github</h1>
               <h3 className='work-sub-header'>All Currently Listed Repos</h3>
@@ -31,7 +31,7 @@ function work() {
               <img src={git} alt="GitHub"  className="work-pics"/>
               <a href="https://github.com/IanZGray" target="_blank" rel="noreferrer"><button className="work-button" alt="link to github">+ More</button></a>
               
-              <div className='line'></div>
+              {/* <div className='line'></div> */}
 
               <div className='cont'>
               <h1 className='work-header'>Books</h1>
@@ -41,7 +41,7 @@ function work() {
               <a href="https://www.amazon.com/~/e/B09NZ7DCS4" target="_blank" rel="noreferrer"><button className="work-button" alt="link to books">+ More</button></a>
               </div>
 
-              <div className='line'></div>
+              {/* <div className='line'></div> */}
 
     </div>
     <div id="work-tablet-view"> 

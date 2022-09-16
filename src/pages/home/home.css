@@ -122,6 +122,7 @@ body {
     border-radius: 2px;
     /* TODO have it move down as you scroll down so it moves out of the way and then display none */
     z-index:2;
+    margin-top: 8vh;
 } 
 
 .first-row {
@@ -179,7 +180,9 @@ body {
     
 @media (min-width: 768px){
 
-    
+    .bio-bubble {
+        margin-top: 0vh;
+    }
     .titles{
         font-size: 4rem;
         margin-right: 5%;

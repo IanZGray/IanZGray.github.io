@@ -36,7 +36,7 @@ function Projects() {
                             <p>{awsParagraph}</p>
                             <p className="languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                             <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-                            <div className='line'></div>
+                            {/* <div className='line'></div> */}
 
                     </div>
                     <Row className="project-rows">
@@ -81,7 +81,7 @@ function Projects() {
                             <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-                            <div className='line'></div>
+                            {/* <div className='line'></div> */}
 
                     </div>
                     <Row className="project-rows">
@@ -125,7 +125,7 @@ function Projects() {
                             <p>{fireWatchParagraph}</p>
                             <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                             <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-                            <div className='line'></div>
+                            {/* <div className='line'></div> */}
 
                     </div>
                     <Row className="project-rows">
