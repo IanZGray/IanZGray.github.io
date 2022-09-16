@@ -1,3 +1,10 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 6vh;
+    background-color:#D0B49F;
+}
 .contact-big-header {
     font-size: 3rem;
     text-align: center;
@@ -37,8 +44,9 @@
     text-align:left;
     font-size: 2.2rem;
     letter-spacing: .1rem;
-    color:cyan;
-    text-shadow: -.09rem .08rem rgba(0,0,0,.8);
+    color:
+    #39918C;
+    /* text-shadow: -.09rem .08rem rgba(0,0,0,.8); */
     margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 10%;
@@ -77,7 +85,7 @@
         font-size: 4vw;
         letter-spacing: .17rem;
         margin-bottom: -.5%;
-        text-shadow: -.1rem .1rem rgba(0,0,0,.8);
+        /* text-shadow: -.1rem .1rem rgba(0,0,0,.8); */
         margin-bottom: 2%;
     }
     .contact-sub-header {
@@ -115,7 +123,7 @@
     }
     .contact-header {
         font-size:2.5rem;
-        text-shadow: -.1rem .1rem .1rem rgba(0,0,0,.8);
+        /* text-shadow: -.1rem .1rem .1rem rgba(0,0,0,.8); */
     }
     .contact-sub-header {
         font-size: 1.2rem;

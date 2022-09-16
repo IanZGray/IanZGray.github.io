@@ -4,7 +4,8 @@
 .circle-nav {
     background-color: rgba(0,0,0,0);
 
-    border-color: cyan;
+    border-color: #39918C;
+    border-color: #2F435A;
     border-radius: 1rem;
     border-style:solid;
     border-radius: 50%;
@@ -22,7 +23,7 @@
     color: rgba(0,0,0,0);
 }
 .circle-nav:hover {
-    background-color: rgba(0,255,255,1);
+    background-color: #39918C;
     width: 1.5rem;
     height: 1.5rem;
     margin-left: .75rem;
@@ -50,5 +51,7 @@
 @media (min-width: 1250px) {
     .vert-nav{
         display: initial;
+        z-index: 5;
+        position: relative;
     }
 }

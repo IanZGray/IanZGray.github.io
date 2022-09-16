@@ -3,8 +3,8 @@ body {
 }
 #backround-home-color {
     /* background-color: #14365d; */
-    background-color: rgb(65, 65, 65);
-    z-index: 5;
+    /* background-color: rgb(160,160,160); */
+    /* z-index:5; */
     position:relative;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -48,8 +48,8 @@ body {
 }
 .triangle-columns {
     z-index: 0;
-    position:absolute;
-    display: flex;
+    position:fixed;
+    /* display: flex; */
     flex-direction: column;
 }
 .triangle-up {
@@ -108,7 +108,7 @@ body {
 .sub-title {
     text-align: right;
     margin-right: 8.5%;
-    color:cyan;
+    color: #39918C;
     font-family: 'Roboto', sans-serif;
     font-size: .7rem;
     font-weight: 300;
@@ -117,9 +117,11 @@ body {
 
 
 .bio-bubble {
-    background-color: black;
-    box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6);
-    border-radius: 10px;
+    background-color: #2F435A;
+    /* box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.6); */
+    border-radius: 2px;
+    /* TODO have it move down as you scroll down so it moves out of the way and then display none */
+    z-index:2;
 } 
 
 .first-row {
@@ -162,7 +164,7 @@ body {
 
     
     .bio-bubble {
-        box-shadow: -.4rem .4rem .3rem .1rem rgba(0,0,0,.8);
+        /* box-shadow: -.4rem .4rem .3rem .1rem rgba(0,0,0,.8); */
     } 
     
     .first-row {
@@ -236,8 +238,8 @@ body {
 
     
     .bio-bubble {
-        box-shadow: -.6rem .6rem .4rem .1rem rgba(0,0,0,.8);
-        border-radius: 25px;
+        /* box-shadow: -.6rem .6rem .4rem .1rem rgba(0,0,0,.8); */
+        border-radius: 2px;
     } 
     
     .first-row {
@@ -264,7 +266,7 @@ body {
 
     
     .bio-bubble {
-        box-shadow: -.8rem .8rem .5rem .1rem rgba(0,0,0,.8);
+        /* box-shadow: -.8rem .8rem .5rem .1rem rgba(0,0,0,.8); */
     } 
     
     .first-row {

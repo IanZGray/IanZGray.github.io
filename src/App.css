@@ -2,14 +2,17 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  /* background-color: white; */
+  background-color: #AB6B51;
 }
 
-.pages {
+/* .pages {
   display: flex;
   flex-direction: column;
   align-self: center;
   padding-top: 6vh;
-}
+  background-color:#D0B49F;
+} */
 
 .background-animation {
   z-index: 1;

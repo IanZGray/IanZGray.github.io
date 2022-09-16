@@ -10,7 +10,7 @@ import ResumeButton from '../../components/resumeButton/ResumeButton';
 function Home() {
   return (
     <div id="backround-home-color">
-        <div className="triangle-columns">
+        {/* <div className="triangle-columns">
         <div className="triangles-odd">
             <div className="triangle-down"></div>
             <div className="triangle-up"></div>
@@ -256,16 +256,16 @@ function Home() {
             <div className="triangle-down"></div>
         </div>
 
-        </div>
+        </div> */}
 
 
         <Container fluid className="home-page front-card" id="home">
         
             <Row className="first-row">
-                <Col xs={{span: 5}}>
+                {/* <Col xs={{span: 5}}>
                     <ResumeButton/>
-                </Col>
-                <Col xs={{span:5}} className='bio-bubble'>
+                </Col> */}
+                <Col xs={{span:5, offset:5}} className='bio-bubble'>
                     <h1 className="titles">Ian<br/>Gray</h1>
                     <h1 className="sub-title">Web Developer</h1>
                 </Col>

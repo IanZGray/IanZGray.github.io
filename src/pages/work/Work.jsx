@@ -13,7 +13,7 @@ function work() {
   return (
 
     <>
-    <Container className='pages' id="work">
+    <Container className='work-page' id="work">
     <h1 className='work-big-header'>Work</h1>
     <div id="mobile-view">
 

@@ -4,13 +4,21 @@ body{
 .d-inline-block {
     transform: translate(15%,0%);
 }
-
-
+.navbar {
+    position: fixed;
+    /* background-color: #D0B49F;
+    background-color: #AB6B51;
+    background-color: #39918C; */
+    background-color: #2F435A;
+}
+.collapse {
+    margin-left: 10%;
+}
 .link-font {
     /* color: #fdf5df;
     background-color: #14365d; */
-    background-color: rgb(65, 65, 65);
-    color: #d7d7d7;
+    /* background-color: rgb(65, 65, 65); */
+    color: #D0B49F;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1rem;
@@ -18,10 +26,10 @@ body{
 }
 .link-font:hover {
     text-decoration: none;
-    color:cyan;
+    color:#39918c;
 }
 .meautobrand {
-    color:cyan;
+    color:#39918c;
     font-size: 1.5em;
     font-family:'Montserrat', sans-serif;
 }
