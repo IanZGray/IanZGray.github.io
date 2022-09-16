@@ -24,7 +24,7 @@ function Projects() {
     const fireWatchParagraph = `This mobile-first website uses breakpoints to switch between designs and display sizes.`
   return (
     <Container fluid className="pages featured" id="projects">
-        <h1 className="big-header">Featured Projects</h1>
+        <h1 className="big-header reveal">Featured Projects</h1>
 
                     <div id="mobile-view">
 
@@ -54,7 +54,7 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                    <div id="desktop-view">
+                    <div id="desktop-view" className="reveal projects-fade-right">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
@@ -99,7 +99,7 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                    <div id="desktop-view">
+                    <div id="desktop-view" className="reveal projects-fade-left">
                         <Col className="yellow-box" xs={{span: 7, offset: 1}}>
                             <Col xs={{span: 7 }} className='bio'>
                             <h1 className="header left">Bad Bank</h1>
@@ -143,7 +143,7 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                    <div id="desktop-view">
+                    <div id="desktop-view" className="reveal projects-fade-right">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={portfolioApp} alt="portfolio"  className="pics"/>
