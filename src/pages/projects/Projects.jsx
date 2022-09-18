@@ -24,6 +24,7 @@ function Projects() {
     const fireWatchParagraph = `This mobile-first website uses breakpoints to switch between designs and display sizes.`
   return (
     <Container fluid className="pages featured" id="projects">
+        <div className="featured-view">
         <h1 className="big-header reveal">Featured Projects</h1>
 
                     <div id="mobile-view">
@@ -158,6 +159,7 @@ function Projects() {
                         </Col>
                     </div>
                 </Row>
+        </div>
     </Container>
   )
 }

@@ -14,8 +14,9 @@ const mail = ()=>{
 function Contact() {
 
   return (
-    <div className='contact-page'>
-    <Container id="contact">
+    <div className='contact-page' id="contact">
+      <div className="contact-position" >
+    <Container >
     <h1 className='contact-big-header reveal'>Contact</h1>
     <div className='contact-contents'>
       <h1 className='contact-header reveal contact-fade-left'>Let's Chat!</h1>
@@ -30,6 +31,7 @@ function Contact() {
 
     </div>
     </Container>
+    </div>
     </div>
   )
 }

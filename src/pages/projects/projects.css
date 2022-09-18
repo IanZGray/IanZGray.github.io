@@ -6,9 +6,11 @@ h1{
 
 .active.projects-fade-left {
     animation: fade-left 1s ease-in;
+    animation-fill-mode: forwards;
   }
 .active.projects-fade-right {
     animation: fade-right 1s ease-in;
+    animation-fill-mode: forwards;
   }
 
   @keyframes projects-fade-left {
@@ -37,6 +39,9 @@ h1{
     }
   }
 
+.featured-view {
+    margin-top: 1%;
+}
 .pages {
     margin-bottom: 2.5%;
     /* background-color: rgb(113, 113, 113); */

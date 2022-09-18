@@ -15,8 +15,8 @@ function work() {
 
   return (
 
-    <>
     <Container className='work-page' id="work">
+    <div className='work-position'>
     <h1 className='work-big-header reveal'>Work</h1>
     <div id="mobile-view">
 
@@ -78,9 +78,10 @@ function work() {
     </div>
 
 
-
+    </div>
     </Container>
-    </>
+
+
 
   )
 }

@@ -8,7 +8,7 @@ body{
 
 .reveal{
   position: relative;
-  opacity: 0;
+  opacity: 1;
   transition: 2s all ease;
 }
 .reveal.active{

@@ -1,8 +1,10 @@
   .active.contact-fade-left {
     animation: fade-left 1s ease;
+    animation-fill-mode: forwards;
   }
   .active.contact-button-right {
     animation: fade-right 1s ease;
+    animation-fill-mode: forwards;
   }
 
   @keyframes contact-fade-left {
@@ -27,6 +29,9 @@
     }
   }
 
+.contact-position {
+    margin-top: 1%;
+}
 .contact-page {
     display: flex;
     flex-direction: column;
