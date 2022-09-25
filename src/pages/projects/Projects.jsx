@@ -34,7 +34,7 @@ function Projects() {
         <h1 className="mobile-big-header">Featured Projects</h1>
         <h1 className="big-header reveal">Featured Projects</h1>
 
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel id="mobile-caro" activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item id="mobile-view">
             <div className="fog"></div>
             <img src={mobilePlant} alt="Plant Here"  className="mobile-pics"/>
@@ -165,7 +165,7 @@ function Projects() {
                             <p className='mobile-p'>{fireWatchParagraph}</p>
                             <p className="mobile-languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                         </Col>
-                    </div>
+                    </div> */}
                     <Row className="project-rows">
                     <div id="tablet-view">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
@@ -195,7 +195,7 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                </Row> */}
+                </Row>
         </div>
     </Container>
   )
