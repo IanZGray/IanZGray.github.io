@@ -25,20 +25,18 @@ function Projects() {
   return (
     <Container fluid className="pages featured" id="projects">
         <div className="featured-view">
+        <h1 className="mobile-big-header">Featured Projects</h1>
         <h1 className="big-header reveal">Featured Projects</h1>
 
                     <div id="mobile-view">
-
-                            <h1 className="header right">Plant Here</h1>
-                            <h2 className="sub-header right">AWS Sustainability Project</h2>
-                            <div className='pic-border'>
-                            <img src={mobilePlant} alt="AWS Sustainability Project"  className="pics"/>
-                            </div>
-                            <p>{awsParagraph}</p>
-                            <p className="languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
-                            <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-                            {/* <div className='line'></div> */}
-
+                        <Col className='mobile-pic-border-aws'>
+                            <div className="fog"></div>
+                            <h1 className="mobile-header">Plant Here</h1>
+                            <h2 className="mobile-sub-header">AWS Sustainability Project</h2>
+                            <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to design page">View</a>
+                            <p className='mobile-p'>{awsParagraph}</p>
+                            <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
+                        </Col>
                     </div>
                     <Row className="project-rows">
                     <div id="tablet-view">
@@ -72,18 +70,15 @@ function Projects() {
                 </Row>
 
                     <div id="mobile-view">
-
-                            <h1 className="header left">Bad Bank</h1>
-                            <h2 className="sub-header left">Front-Facing Bank Project</h2>
-                            <div className='pic-border'>
-                            <img src={mobileBank} alt="Bad Bank"  className="pics"/>
-                            </div>
-                            <p>{badBankParagraph}</p>
-                            <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
-                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-                            {/* <div className='line'></div> */}
-
+                        <Col className='mobile-pic-border-bank'>
+                            <div className="fog"></div>
+                            <h1 className="mobile-header">Bad Bank</h1>
+                            <h2 className="mobile-sub-header">Front-Facing Bank Project</h2>
+                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="mobile-project-buttons" alt="link to design page">View</button></a>
+                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to design page">GitHub</a>
+                            <p className='mobile-p'>{badBankParagraph}</p>
+                            <p className="mobile-languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
+                        </Col>
                     </div>
                     <Row className="project-rows">
                     <div id="tablet-view">
@@ -117,17 +112,14 @@ function Projects() {
                 </Row>
 
                     <div id="mobile-view">
-
-                            <h1 className="header right">this.website</h1>
-                            <h2 className="sub-header right">My Development Portfolio</h2>
-                            <div className='pic-border'>
-                            <img src={mobilePort} alt="portfolio"  className="pics"/>
-                            </div>
-                            <p>{fireWatchParagraph}</p>
-                            <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                            <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
-                            {/* <div className='line'></div> */}
-
+                        <Col className='mobile-pic-border-this'>
+                            <div className="fog"></div>
+                            <h1 className="mobile-header">this.website</h1>
+                            <h2 className="mobile-sub-header">My Development Portfolio</h2>
+                            <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to design page">GitHub</a>
+                            <p className='mobile-p'>{fireWatchParagraph}</p>
+                            <p className="mobile-languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                        </Col>
                     </div>
                     <Row className="project-rows">
                     <div id="tablet-view">

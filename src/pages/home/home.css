@@ -1,15 +1,3 @@
-.layer-one {
-    position:absolute;
-    z-index: 1;
-}
-.layer-two {
-    position:absolute;
-    z-index: 2;
-}
-.layer-three {
-    position:absolute;
-    z-index: 3;
-}
 
 body {
     overflow-x: hidden;
@@ -24,87 +12,6 @@ body {
 }
 .home-page {
     margin-bottom: 10%;
-}
-.triangles-odd {
-    display: flex;
-}
-.triangles-even {
-    display: flex;
-    margin-left: -5.2vw;
-}
-#three {
-    margin-left: -10.2vw;
-}
-#four {
-    margin-left: -2.8vw;
-}
-#five {
-    margin-left: -7.8vw;
-}
-#six {
-    margin-left: -.4vw;
-}
-#seven {
-    margin-left: -5.4vw;
-}
-#eight {
-    margin-left: -10.4vw;
-}
-#nine {
-    margin-left: -2.8vw;
-}
-#ten {
-    margin-left: -10.4vw;
-}
-#eleven {
-    margin-left: -2.8vw;
-}
-.triangle-columns {
-    z-index: 0;
-    position:fixed;
-    /* display: flex; */
-    flex-direction: column;
-}
-.triangle-up {
-	width: 0;
-	height: 0;
-	border-left: 7.5vw solid transparent;
-	border-right: 7.5vw solid transparent;
-	border-bottom: 7.5vw solid rgba(0, 255, 255, .5);
-    border-radius: 49%;
-}
-
-.triangle-up-var {
-	width: 0;
-	height: 0;
-	border-left: 7.5vw solid transparent;
-	border-right: 7.5vw solid transparent;
-	border-bottom: 7.5vw solid rgba(0, 255, 255, .5);
-    border-radius: 49%;
-}
-
-
-.triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 7.5vw solid transparent;
-	border-right: 7.5vw solid transparent;
-	border-top: 7.5vw solid rgba(255,0,255, .5);
-    margin-left: -10vw;
-    margin-right: -7.5vw;
-    border-radius: 49%;
-}
-
-
-.triangle-down-var {
-	width: 0;
-	height: 0;
-	border-left: 7.5vw solid transparent;
-	border-right: 7.5vw solid transparent;
-	border-top: 7.5vw solid rgba(255,255, 0, .5);
-    margin-left: -10vw;
-    margin-right: -7.5vw;
-    border-radius: 49%;
 }
 
 
@@ -212,27 +119,7 @@ body {
 
 
 }
-@media (min-width: 1000px){
-    
-    .triangle-up:hover{
-        border-bottom: 7.5vw solid rgba(0, 255, 255, .75);
-        border-radius: 25%;
-    }
-    .triangle-down:hover {
-        border-top: 7.5vw solid rgba(255,0,255, .75);
-        border-radius: 25%;
-    }
-    .triangle-up-var:hover{
-        border-bottom: 7.5vw solid rgba(255, 0, 255, .75);
-        border-radius: 25%;
-    }
-    .triangle-down-var:hover {
-        border-top: 7.5vw solid rgba(255,255,0, .75);
-        border-radius: 25%;
-    }
-    
 
-}
 
 @media (min-width: 1024px){
     
