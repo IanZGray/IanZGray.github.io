@@ -25,7 +25,7 @@ function Projects() {
   return (
     <Container fluid className="pages featured" id="projects">
         <div className="featured-view">
-        <h1 className="mobile-big-header">Featured Projects</h1>
+        {/* <h1 className="mobile-big-header">Featured Projects</h1> */}
         <h1 className="big-header reveal">Featured Projects</h1>
 
                     <div id="mobile-view">
