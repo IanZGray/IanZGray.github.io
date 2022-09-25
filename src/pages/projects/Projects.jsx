@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import Carousel from 'react-bootstrap/Carousel';
 
 import plantHere from '../../images/plantHereImage.jpg';
 import badBank from '../../images/badBanking.jpg';
@@ -15,9 +15,15 @@ import mobilePort from '../../images/mobilePort.jpg';
 import '../../App.css';
 
 import './projects.css';
-
+    
 function Projects() {
     
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
+
     const awsParagraph = `Using machine learning, we parsed large data sets of soil composition and rainfall history to composite an app that can locate the optimal land for planting based on crop data. `
     const badBankParagraph = `An implementation of custom hooks in React.js that allows a user to create an account, log in, and deposit/withdraw money.`
     // const fireWatchParagraph = `Using NCOO api, this app can inform users of the potential risks of upcoming forest fires by comparing consecutive days with little or no rain, and temperature.`
@@ -25,10 +31,49 @@ function Projects() {
   return (
     <Container fluid className="pages featured" id="projects">
         <div className="featured-view">
-        {/* <h1 className="mobile-big-header">Featured Projects</h1> */}
+        <h1 className="mobile-big-header">Featured Projects</h1>
         <h1 className="big-header reveal">Featured Projects</h1>
 
-                    <div id="mobile-view">
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item id="mobile-view">
+            <div className="fog"></div>
+            <img src={mobilePlant} alt="Plant Here"  className="mobile-pics"/>
+                <Carousel.Caption>
+                    <h1 className="mobile-header">Plant Here </h1>
+                    <h2 className="mobile-sub-header">AWS Sustainability Project</h2>
+                    <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to plant here implementation">View</a>
+                    <p className='mobile-p'>{awsParagraph}</p>
+                    <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="fog"></div>
+            <img src={mobileBank} alt="Bad Bank"  className="mobile-pics"/>
+
+                <Carousel.Caption>
+                    <h1 className="mobile-header">Bad Bank</h1>
+                    <h2 className="mobile-sub-header">Front-Facing Bank Project</h2>
+                    <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to banking app implementation">View</a>
+                    <br></br>
+                    <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to banking app github">GitHub</a>
+                    <p className='mobile-p'>{badBankParagraph}</p>
+                    <p className="mobile-languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="fog"></div>
+            <img src={mobilePort} alt="This Portfolio"  className="mobile-pics"/>
+
+                <Carousel.Caption>
+                    <h1 className="mobile-header">this.website</h1>
+                    <h2 className="mobile-sub-header">My Development Portfolio</h2>
+                    <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to this portfolio's github">GitHub</a>
+                    <p className='mobile-p'>{fireWatchParagraph}</p>
+                    <p className="mobile-languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+                    {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-aws'>
                             <div className="fog"></div>
                             <h1 className="mobile-header">Plant Here</h1>
@@ -37,7 +82,7 @@ function Projects() {
                             <p className='mobile-p'>{awsParagraph}</p>
                             <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                         </Col>
-                    </div>
+                    </div> */}
                     <Row className="project-rows">
                     <div id="tablet-view">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
@@ -69,7 +114,7 @@ function Projects() {
                     </div>
                 </Row>
 
-                    <div id="mobile-view">
+                    {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-bank'>
                             <div className="fog"></div>
                             <h1 className="mobile-header">Bad Bank</h1>
@@ -79,7 +124,7 @@ function Projects() {
                             <p className='mobile-p'>{badBankParagraph}</p>
                             <p className="mobile-languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
                         </Col>
-                    </div>
+                    </div> */}
                     <Row className="project-rows">
                     <div id="tablet-view">
                         <Col className="yellow-box" xs={{span: 7, offset: 1}}>
@@ -111,7 +156,7 @@ function Projects() {
                     </div>
                 </Row>
 
-                    <div id="mobile-view">
+                    {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-this'>
                             <div className="fog"></div>
                             <h1 className="mobile-header">this.website</h1>
@@ -150,7 +195,7 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                </Row>
+                </Row> */}
         </div>
     </Container>
   )
