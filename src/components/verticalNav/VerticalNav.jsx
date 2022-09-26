@@ -12,6 +12,7 @@ function VerticalNav() {
             <a href="#projects"><div className="second circle-nav"></div></a>
             <a href="#work"><div className="third circle-nav"></div></a>
             <a href="#contact"><div className="fourth circle-nav"></div></a>
+            <div className="ball"></div>
         </Col>
 
     </div>

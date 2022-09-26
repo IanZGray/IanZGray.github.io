@@ -8,10 +8,16 @@ import '../../App.css';
 import ResumeButton from '../../components/resumeButton/ResumeButton';
 
 function Home() {
+    var offsetStart = 0;
+    var offsetEnd = 0;
+
+    window.addEventListener('scroll', () => {
+        document.documentElement.style.setProperty('--scroll', ( window.pageYOffset - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
+    }, false);
   return (
     <div id="backround-home-color">
-
-        <Container fluid className="home-page front-card" id="home">
+    <div className='a-line slide-out'></div>
+        <Container fluid className="home-page front-card slide-down" id="home">
         
             <Row className="first-row">
                 {/* <Col xs={{span: 5}}>
@@ -24,6 +30,7 @@ function Home() {
             </Row>
 
         </Container>
+        
 
     </div>
 

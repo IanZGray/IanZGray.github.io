@@ -7,6 +7,7 @@ import Work from './pages/work/Work.jsx';
 import Footer from './components/footer/Footer.jsx';
 import VerticalNav from './components/verticalNav/VerticalNav.jsx';
 
+
 function App() {
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");

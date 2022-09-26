@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from 'react-bootstrap';
 
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 
 import './contact.css';
 

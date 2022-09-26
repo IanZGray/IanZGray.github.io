@@ -1,3 +1,14 @@
+.a-line {
+    width: 940px;
+    height: 5000px;
+    background-color: #fdf5df;
+    /* transform: rotateZ(30deg) translate(-1000px,-1000px); */
+    margin-left: -10%;
+    /* transform: translate(500px,0px); */
+    
+    position: fixed;
+    z-index: -1;
+}
 
 body {
     overflow-x: hidden;
@@ -43,6 +54,8 @@ body {
     /* TODO have it move down as you scroll down so it moves out of the way and then display none */
     z-index:2;
     margin-top: 8vh;
+    /* position: fixed; */
+    /* display:none; */
 } 
 
 .first-row {
@@ -182,3 +195,37 @@ body {
         display: none;
     }
 }
+
+.slide-out {
+    animation: slide-out .5s linear;
+}
+@keyframes slide-out {
+0% {
+    transform: rotateZ(30deg) translate(-1000px,-1000px);
+}
+100% {
+    transform: translate(-3000px,1000px);
+}
+}
+
+.slide-down {
+    animation: slide-down .5s linear;
+}
+@keyframes slide-down {
+    0% {
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(2000px, 1500px);
+    }
+}
+
+:root * {
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
