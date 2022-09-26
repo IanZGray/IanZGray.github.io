@@ -108,7 +108,7 @@ function Projects() {
                                 <h2 className="sub-header right">AWS Sustainability Project</h2>
                                 <p>{awsParagraph}</p>
                                 <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
-                                <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
+                                <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
                     </div>
@@ -147,8 +147,8 @@ function Projects() {
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, npm, Bootstrap, JavaScript, CSS, HTML</p>
-                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                            </Col>
+                            <a href="https://ian-graybankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
+                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                            </Col>
                             <Col xs={{span: 5}}>
                                 <img src={badBank} alt="Bad Bank"  className="pics"/>
                             </Col>
@@ -191,7 +191,7 @@ function Projects() {
                                 <h2 className="sub-header right">My Development Portfolio</h2>
                                 <p>{fireWatchParagraph}</p>
                                 <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                                <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
+                                <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>
                             </Col>
                         </Col>
                     </div>

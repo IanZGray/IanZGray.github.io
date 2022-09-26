@@ -44,7 +44,7 @@
     text-align: center;
     /* text-shadow: -.15rem .15rem .12rem rgba(0,0,0,.8); */
     /* color: #14365d; */
-    color: black;
+    color: rgb(15,15,15);
 }
 .contact-button {
     width: 40%;
@@ -52,10 +52,10 @@
     text-align: center;
     font-size: .8rem;
     background-color: rgba(0,0,0,0);
-    border-color: black;
+    border-color: rgb(15,15,15);
     border-width: .2rem;
     /* color: #fdf5df; */
-    color: black;
+    color: rgb(15,15,15);
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     border-style: solid;
@@ -65,9 +65,9 @@
     cursor: pointer;
 }
 .contact-button:hover {
-    background-color: #fdf5df;
-    color: black;
-    border-color: #fdf5df;
+    background-color: rgb(15,15,15);
+    color: #D0B49F;
+    border-color: rgb(15,15,15);
 }
 
 .contact-contents {
@@ -90,7 +90,7 @@
 .contact-sub-header {
     text-align: left;
     /* color:#fdf5df; */
-    color: black;
+    color: rgb(15,15,15);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;

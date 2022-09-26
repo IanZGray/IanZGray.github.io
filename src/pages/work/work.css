@@ -2,61 +2,69 @@
     position: relative;
     opacity: 0;
     transition: 2s all ease;
-  }
-  .reveal.active{
+}
+.reveal.active{
     opacity: 1;
-  }
-  .work-reveal{
+}
+.work-reveal{
     position: relative;
     opacity: 0;
-  }
-  .work-reveal.active{
+}
+.work-reveal.active{
     opacity: 1;
-  }
-  .active.fade-bottom {
+}
+.active.fade-bottom {
     animation: fade-bottom 1s ease;
     animation-fill-mode: forwards;
-  }
-  .active.fade-left {
+}
+.active.fade-left {
     animation: fade-left 1s ease;
     animation-fill-mode: forwards;
-  }
-  .active.fade-right {
+}
+.active.fade-right {
     animation: fade-right 1s ease;
     animation-fill-mode: forwards;
-  }
+}
 
-  @keyframes fade-bottom {
+@keyframes fade-bottom {
     0% {
-      transform: translateY(15vw);
-      opacity: 0;
+        transform: translateY(15vw);
+        opacity: 0;
     }
     100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-left {
+        transform: translateY(0);
+        opacity: 1;
+}
+}
+@keyframes fade-left {
     0% {
-      transform: translateX(-25vw);
-      opacity: 0;
+        transform: translateX(-25vw);
+        opacity: 0;
     }
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  @keyframes fade-right {
+}
+
+@keyframes fade-right {
     0% {
-      transform: translateX(25vw);
-      opacity: 0;
+        transform: translateX(25vw);
+        opacity: 0;
     }
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
+}
+
+.clicks{
+    position: relative;
+    transition: .7s all ease !important;
+}
+.clicks.active{
+    opacity: 1;
+}
 
 .work-position {
     margin-top: 1%;
@@ -172,7 +180,8 @@
     .work-big-header {
         font-size: 4rem;
         /* text-shadow: -.15rem .15rem .1rem rgba(0,0,0,.8); */
-    }    .work-header{
+    }    
+    .work-header{
         font-size: 2.5rem;
     }
     .work-sub-header {
@@ -216,7 +225,6 @@
         text-align: justify;
     }
 
-    
     .work-button {
         border-width: .2rem;
         /* font-size: 2vw; */
@@ -231,7 +239,6 @@
         height: auto;
     }
 
-
     .work-pics {
         border-width: 2rem;
         width: 100%;
@@ -245,6 +252,7 @@
         /* box-shadow: -.3rem .3rem .2rem .05rem rgba(0,0,0,.8); */
     }
 }
+
 @media (min-width: 1024px) {
     .work-button {
         height: 4vw;
