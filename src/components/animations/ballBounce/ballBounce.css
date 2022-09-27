@@ -11,89 +11,182 @@
 
     margin-left: 15vw;
     margin-right: auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     animation: bounce 1.5s steps(11) infinite;
     overflow-x: hidden;
 
     position: absolute;
+
+    display: none;
 }
 
-@keyframes  bounce {
-    0% {
-        width: 5vw;
-        height: 5vw;
-        transform: translate(0vw,0vh);
-    }
-    16.66% {
-        width: 5vw;
-        height: 5vw;
-        transform: translate(0vw,5vh);
-    }
-    24.99% {
-        width: 5vw;
-        height: 5vw;
-        transform: translate(0vw, 20.0vh);
-    }
-    33.33% {
-        width: 4.0vw;
-        height: 6.0vw;
-        transform: translate(.5vw, 28.8vh);
-    }
-/* added for blend */
-    36% {
-        width: 4.0vw;
-        height: 8.0vw;
-        transform: translate(.5vw, 40vh);
-    }
-/* above added for blend */
 
-    41.66% {
-        transform: translate(-2vw, 51.8vh);
-        width: 9.0vw;
-        height: 3vw;
-    }
-    50.99% {
-        transform: translate(-2.5vw, 54vh);
-        width: 10.0vw;
-        height: 2.0vw;
-    }
-    52.90% {
-        transform: translate(-2vw, 51.8vh);
-        width: 9.0vw;
-        height: 3.0vw;
-    }
 
-/* added for blending */
-    54% {
-        transform: translate(1.5vw, 35vh);
-        width: 2.0vw;
-        height: 6.0vw;
+@media(min-width: 768px) {
+    .ball {
+        display: inherit;
     }
-/* above added for blending */
-
-    58.33% {
-        transform: translate(1vw, 15vh);
-        width: 3.0vw;
-        height: 8.0vw;
+    @keyframes  bounce {
+        0% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw,0vh);
+        }
+        16.66% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw,2vh);
+        }
+        24.99% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw, 8vh);
+        }
+        33.33% {
+            width: 4.0vw;
+            height: 6.0vw;
+            transform: translate(.5vw, 11.33vh);
+        }
+    /* added for blend */
+        36% {
+            width: 4.0vw;
+            height: 8.0vw;
+            transform: translate(.5vw, 16vh);
+        }
+    /* above added for blend */
+    
+        41.66% {
+            transform: translate(-2vw, 20.66vh);
+            width: 9.0vw;
+            height: 3vw;
+        }
+        50.99% {
+            transform: translate(-2.5vw, 22vh);
+            width: 10.0vw;
+            height: 2.0vw;
+        }
+        52.90% {
+            transform: translate(-2vw, 20.66vh);
+            width: 9.0vw;
+            height: 3.0vw;
+        }
+    
+    /* added for blending */
+        54% {
+            transform: translate(1.5vw, 16vh);
+            width: 2.0vw;
+            height: 6.0vw;
+        }
+    /* above added for blending */
+    
+        58.33% {
+            transform: translate(1vw, 8.3vh);
+            width: 3.0vw;
+            height: 8.0vw;
+        }
+        /* 58.33% {
+    
+        } */
+        66.66% {
+            transform: translate(.5vw, 0vh);
+            width: 4.0vw;
+            height: 6.0vw;
+        }
+        /* 75% {
+    
+        }
+        83.33% {
+    
+        }
+        91.66% {
+    
+        }
+        100% {
+            transform: translate(0vw,0vh);
+        } */
     }
-    /* 58.33% {
-
-    } */
-    66.66% {
-        transform: translate(.5vw, 0vh);
-        width: 4.0vw;
-        height: 6.0vw;
+}
+@media(min-width: 1250px){
+    .ball {
+        margin-top: 15vh;
     }
-    /* 75% {
-
+    @keyframes  bounce {
+        0% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw,0vh);
+        }
+        16.66% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw,5vh);
+        }
+        24.99% {
+            width: 5vw;
+            height: 5vw;
+            transform: translate(0vw, 20.0vh);
+        }
+        33.33% {
+            width: 4.0vw;
+            height: 6.0vw;
+            transform: translate(.5vw, 28.8vh);
+        }
+    /* added for blend */
+        36% {
+            width: 4.0vw;
+            height: 8.0vw;
+            transform: translate(.5vw, 40vh);
+        }
+    /* above added for blend */
+    
+        41.66% {
+            transform: translate(-2vw, 51.8vh);
+            width: 9.0vw;
+            height: 3vw;
+        }
+        50.99% {
+            transform: translate(-2.5vw, 54vh);
+            width: 10.0vw;
+            height: 2.0vw;
+        }
+        52.90% {
+            transform: translate(-2vw, 51.8vh);
+            width: 9.0vw;
+            height: 3.0vw;
+        }
+    
+    /* added for blending */
+        54% {
+            transform: translate(1.5vw, 35vh);
+            width: 2.0vw;
+            height: 6.0vw;
+        }
+    /* above added for blending */
+    
+        58.33% {
+            transform: translate(1vw, 15vh);
+            width: 3.0vw;
+            height: 8.0vw;
+        }
+        /* 58.33% {
+    
+        } */
+        66.66% {
+            transform: translate(.5vw, 0vh);
+            width: 4.0vw;
+            height: 6.0vw;
+        }
+        /* 75% {
+    
+        }
+        83.33% {
+    
+        }
+        91.66% {
+    
+        }
+        100% {
+            transform: translate(0vw,0vh);
+        } */
     }
-    83.33% {
-
-    }
-    91.66% {
-
-    }
-    100% {
-        transform: translate(0vw,0vh);
-    } */
 }
