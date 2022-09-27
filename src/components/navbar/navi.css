@@ -13,6 +13,7 @@ body{
 }
 .collapse {
     margin-left: 10%;
+    text-align: left;
 }
 .link-font {
     /* color: #fdf5df;

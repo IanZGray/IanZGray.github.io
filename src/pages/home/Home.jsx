@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import './home.css';
 import '../../App.css';
-import ResumeButton from '../../components/resumeButton/ResumeButton';
+// import ResumeButton from '../../components/resumeButton/ResumeButton';
 
 function Home() {
     var offsetStart = 0;
