@@ -116,14 +116,14 @@
         width: 10.0vw;
         height: 2.0vw;
     }
-    51.90% {
+    52.90% {
         transform: translate(-2vw, 51.8vh);
         width: 9.0vw;
         height: 3.0vw;
     }
 
 /* added for blending */
-    52% {
+    54% {
         transform: translate(1.5vw, 35vh);
         width: 2.0vw;
         height: 6.0vw;
@@ -139,9 +139,11 @@
 
     } */
     66.66% {
-
+        transform: translate(.5vw, 5vh);
+        width: 4.0vw;
+        height: 6.0vw;
     }
-    75% {
+    /* 75% {
 
     }
     83.33% {
@@ -152,5 +154,5 @@
     }
     100% {
         transform: translate(0vw,0vh);
-    }
+    } */
 }
