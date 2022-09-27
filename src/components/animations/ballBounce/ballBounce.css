@@ -72,7 +72,7 @@
         }
     
     /* added for blending */
-        54% {
+        53% {
             transform: translate(1.5vw, 16vh);
             width: 2.0vw;
             height: 6.0vw;
@@ -156,8 +156,8 @@
         }
     
     /* added for blending */
-        54% {
-            transform: translate(1.5vw, 35vh);
+        53% {
+            transform: translate(1.5vw, 40vh);
             width: 2.0vw;
             height: 6.0vw;
         }
