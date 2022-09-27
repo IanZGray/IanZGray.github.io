@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .d-inline-block {
-    transform: translate(15%,0%);
+    transform: translate(60%,0%);
 }
 .navbar {
     position: fixed;
