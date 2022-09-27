@@ -5,7 +5,7 @@
     border-radius: 50%;
 
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-color: rgb(42, 42, 42);
     background-color: rgb(242, 242, 242,0);
 
@@ -17,7 +17,86 @@
 
     position: absolute;
 
-    display: none;
+    /* display: none; */
+}
+@keyframes  bounce {
+    0% {
+        width: 5vw;
+        height: 5vw;
+        transform: translate(0vw,0vh);
+    }
+    16.66% {
+        width: 5vw;
+        height: 5vw;
+        transform: translate(0vw,1.5vh);
+    }
+    24.99% {
+        width: 5vw;
+        height: 5vw;
+        transform: translate(0vw, 6vh);
+    }
+    33.33% {
+        width: 4.0vw;
+        height: 6.0vw;
+        transform: translate(.5vw, 10vh);
+    }
+/* added for blend */
+    36% {
+        width: 4.0vw;
+        height: 8.0vw;
+        transform: translate(.5vw, 12vh);
+    }
+/* above added for blend */
+
+    41.66% {
+        transform: translate(-2vw, 15.5vh);
+        width: 9.0vw;
+        height: 3vw;
+    }
+    50.99% {
+        transform: translate(-2.5vw, 16vh);
+        width: 10.0vw;
+        height: 2.0vw;
+    }
+    52.90% {
+        transform: translate(-2vw, 15.5vh);
+        width: 9.0vw;
+        height: 3.0vw;
+    }
+
+/* added for blending */
+    53% {
+        transform: translate(1.5vw, 12vh);
+        width: 2.0vw;
+        height: 6.0vw;
+    }
+/* above added for blending */
+
+    58.33% {
+        transform: translate(1vw, 2.3vh);
+        width: 3.0vw;
+        height: 8.0vw;
+    }
+    /* 58.33% {
+
+    } */
+    66.66% {
+        transform: translate(.5vw, 0vh);
+        width: 4.0vw;
+        height: 6.0vw;
+    }
+    /* 75% {
+
+    }
+    83.33% {
+
+    }
+    91.66% {
+
+    }
+    100% {
+        transform: translate(0vw,0vh);
+    } */
 }
 
 
@@ -25,6 +104,7 @@
 @media(min-width: 768px) {
     .ball {
         display: inherit;
+        border-width: 4px;
     }
     @keyframes  bounce {
         0% {
