@@ -10,10 +10,10 @@ body{
     background-color: #AB6B51;
     background-color: #39918C; */
     background-color: #2F435A;
+    text-align: left;
 }
 .collapse {
     margin-left: 10%;
-    text-align: left;
 }
 .link-font {
     /* color: #fdf5df;
