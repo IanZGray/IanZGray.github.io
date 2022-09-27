@@ -6,6 +6,7 @@ import Home from './pages/home/Home.jsx';
 import Work from './pages/work/Work.jsx';
 import Footer from './components/footer/Footer.jsx';
 import VerticalNav from './components/verticalNav/VerticalNav.jsx';
+import BallBounce from './components/animations/ballBounce/BallBounce';
 
 
 function App() {
@@ -32,6 +33,7 @@ reveal();
       <div className='App'>
           <Navi />
           <VerticalNav />
+          <BallBounce />
             <Home />
             <Projects />
             <Work />

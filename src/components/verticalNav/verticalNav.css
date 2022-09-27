@@ -21,6 +21,7 @@
     font-weight: 900;
     font-style: italic;
     color: rgba(0,0,0,0);
+
 }
 .circle-nav:hover {
     background-color: #39918C;
@@ -37,15 +38,26 @@
 
 .first {
     margin-top: 40vh;
+    animation: circle-one .5s ease-in;
 }
 .second {
     margin-top: 44vh;
+    animation: circle-two .75s ease-in;
 }
 .third {
     margin-top: 48vh;
+    animation: circle-three 1s ease-in;
 }
 .fourth {
     margin-top: 52vh;
+    animation: circle-four 1.25s ease-in;
+}
+
+.nav-hover{
+    transition: .3s all ease !important;
+}
+.nav-hover.active{
+    opacity: 1;
 }
 
 @media (min-width: 1250px) {
@@ -156,3 +168,203 @@
         transform: translate(0vw,0vh);
     } */
 }
+@keyframes circle-one {
+    0%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+    15%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+
+    25% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+}
+@keyframes circle-two {
+    10% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+    20%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+    60%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+
+    75% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+}
+@keyframes circle-three {
+    40% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+    55%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+    73%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+
+    100% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+}
+@keyframes circle-four {
+    55% {
+        background-color: rgba(0,0,0,0);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 1rem;
+        transform: translate(0rem,0rem);
+
+        border-color: #2F435A;
+        border-radius: 1rem;
+        border-style:solid;
+        border-radius: 50%;
+
+        border-width: .2rem;
+    }
+    70%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+    100%{
+        background-color: #39918C;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .75rem;
+        transform:translate(-.25rem,-.5rem);
+    
+        border-color: rgba(0,255,255,.2);
+        border-width: 1rem;
+    
+        color: rgba(0,0,0,1);
+    }
+}
+:root * {
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
