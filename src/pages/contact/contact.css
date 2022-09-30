@@ -73,7 +73,7 @@
 
 .contact-contents {
     text-align: right;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .contact-header {
@@ -111,6 +111,9 @@
     }
 }
 @media (min-width: 768px) {
+    .contact-contents {
+        margin-bottom: 10%;
+    }
     .contact-big-header {
         font-size: 8.5vw;
         /* text-shadow: -.15rem .15rem .15rem rgba(0,0,0,.8); */
@@ -145,6 +148,9 @@
     }
 }
 @media (min-width: 1024px) {
+    .contact-contents {
+        margin-bottom: 7%;
+    }
     .contact-big-header {
         font-size: 4rem;
         /* text-shadow: -.18rem .18rem .18rem rgba(0,0,0,.8); */
