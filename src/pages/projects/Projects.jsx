@@ -25,7 +25,7 @@ function Projects() {
     };
 
     const awsParagraph = `Using machine learning, we parsed large data sets of soil composition and rainfall history to composite an app that can locate the optimal land for planting based on crop data. `
-    const badBankParagraph = `An implementation of custom hooks in React.js that allows a user to create an account, log in, and deposit/withdraw money.`
+    const badBankParagraph = `A full-stack banking application that allows a user to create an account, log in, and deposit/withdraw money. The app utilizes JSON web tokens for authentication. Login status saved in local storage.`
     // const fireWatchParagraph = `Using NCOO api, this app can inform users of the potential risks of upcoming forest fires by comparing consecutive days with little or no rain, and temperature.`
     const fireWatchParagraph = `This mobile-first website uses breakpoints to switch between designs and display sizes.`
   return (
