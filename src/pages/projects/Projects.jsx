@@ -54,8 +54,8 @@ function Projects() {
                     <h1 className="mobile-header">Bad Bank</h1>
                     <h2 className="mobile-sub-header">Full Stack Bank Project MIT</h2>
                     <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to banking app implementation">View</a>
-                    <br></br>
-                    <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to banking app github">GitHub</a>
+                    {/* <br></br> */}
+                    {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer" className="mobile-project-buttons" alt="link to banking app github">GitHub</a> */}
                     <p className='mobile-p'>{badBankParagraph}</p>
                     <p className="mobile-languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
@@ -134,7 +134,8 @@ function Projects() {
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
                             <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
-                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                            </Col>
+                            {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                             */}
+                            </Col>
                             <Col xs={{span: 5}}>
                                 <img src={mobileBank} alt="Bad Bank"  className="pics"/>
                             </Col>
@@ -148,7 +149,8 @@ function Projects() {
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
                             <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
-                            <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                            </Col>
+                            {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
+                            </Col>
                             <Col xs={{span: 5}}>
                                 <img src={badBank} alt="Bad Bank"  className="pics"/>
                             </Col>
