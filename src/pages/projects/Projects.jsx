@@ -35,7 +35,7 @@ function Projects() {
         <h1 className="big-header reveal">Featured Projects</h1>
 
         <Carousel id="mobile-caro" activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item id="mobile-view">
+            {/* <Carousel.Item id="mobile-view">
             <div className="fog"></div>
             <img src={mobilePlant} alt="Plant Here"  className="mobile-pics"/>
                 <Carousel.Caption>
@@ -45,7 +45,7 @@ function Projects() {
                     <p className='mobile-p'>{awsParagraph}</p>
                     <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
             <Carousel.Item>
             <div className="fog"></div>
             <img src={mobileBank} alt="Bad Bank"  className="mobile-pics"/>
@@ -84,7 +84,7 @@ function Projects() {
                         </Col>
                     </div> */}
                     <Row className="project-rows">
-                    <div id="tablet-view">
+                    {/* <div id="tablet-view">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={mobilePlant} alt="AWS Sustainability Project"  className="pics"/>
@@ -97,8 +97,8 @@ function Projects() {
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
-                    </div>
-                    <div id="desktop-view" className="reveal projects-fade-right">
+                    </div> */}
+                    {/* <div id="desktop-view" className="reveal projects-fade-right">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
@@ -111,7 +111,7 @@ function Projects() {
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
-                    </div>
+                    </div> */}
                 </Row>
 
                     {/* <div id="mobile-view">
