@@ -24,6 +24,24 @@ function Projects() {
         setIndex(selectedIndex);
     };
 
+    const bankLink = (e) => {
+        e.preventDefault()
+        window.open('https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html')
+      }
+    const gitLink = (e) => {
+        e.preventDefault()
+        window.open('https://github.com/IanZGray/ianzgray.GitHub.io')
+      }
+
+    const bankMobileLink = (e) => {
+        e.preventDefault()
+        window.location = 'https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html'
+      }
+    const gitMobileLink = (e) => {
+        e.preventDefault()
+        window.location = 'https://github.com/IanZGray/ianzgray.GitHub.io'
+      }
+
     const awsParagraph = `Using machine learning, we parsed large data sets of soil composition and rainfall history to composite an app that can locate the optimal land for planting based on crop data. `
     const badBankParagraph = `A full-stack banking application that allows a user to create an account, log in, and deposit/withdraw money. The app utilizes JSON web tokens for authentication. Login status saved in local storage.`
     // const fireWatchParagraph = `Using NCOO api, this app can inform users of the potential risks of upcoming forest fires by comparing consecutive days with little or no rain, and temperature.`
@@ -46,7 +64,7 @@ function Projects() {
                     <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
             </Carousel.Item> */}
-            <Carousel.Item>
+            <Carousel.Item onClick={ bankMobileLink } >
             <div className="fog"></div>
             <img src={mobileBank} alt="Bad Bank"  className="mobile-pics"/>
 
@@ -60,7 +78,7 @@ function Projects() {
                     <p className="mobile-languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item onClick={ gitMobileLink } >
             <div className="fog"></div>
             <img src={mobilePort} alt="This Portfolio"  className="mobile-pics"/>
 
@@ -126,14 +144,14 @@ function Projects() {
                         </Col>
                     </div> */}
                     <Row className="project-rows">
-                    <div id="tablet-view">
-                        <Col className="yellow-box" xs={{span: 7, offset: 1}}>
+                    <div id="tablet-view" onClick={ bankLink } >
+                        <Col className="yellow-box" xs={{span: 7, offset: 1}} >
                             <Col xs={{span: 7 }} className='bio'>
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
-                            <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
+                            {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a> */}
                             {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                             */}
                             </Col>
                             <Col xs={{span: 5}}>
@@ -141,14 +159,14 @@ function Projects() {
                             </Col>
                         </Col>
                     </div>
-                    <div id="desktop-view" className="reveal projects-fade-left">
+                    <div id="desktop-view" className="reveal projects-fade-left" onClick={ bankLink }>
                         <Col className="yellow-box" xs={{span: 7, offset: 1}}>
                             <Col xs={{span: 7 }} className='bio'>
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
                             <p>{badBankParagraph}</p>
                             <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
-                            <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
+                            {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a> */}
                             {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
                             </Col>
                             <Col xs={{span: 5}}>
@@ -169,7 +187,7 @@ function Projects() {
                         </Col>
                     </div> */}
                     <Row className="project-rows">
-                    <div id="tablet-view">
+                    <div id="tablet-view" onClick={ gitLink } >
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={mobilePort} alt="portfolio"  className="pics"/>
@@ -179,11 +197,11 @@ function Projects() {
                                 <h2 className="sub-header right">My Development Portfolio</h2>
                                 <p>{fireWatchParagraph}</p>
                                 <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                                <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>
+                                {/* <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a> */}
                             </Col>
                         </Col>
                     </div>
-                    <div id="desktop-view" className="reveal projects-fade-right">
+                    <div id="desktop-view" className="reveal projects-fade-right" onClick={ gitLink } >
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={portfolioApp} alt="portfolio"  className="pics"/>
@@ -193,7 +211,7 @@ function Projects() {
                                 <h2 className="sub-header right">My Development Portfolio</h2>
                                 <p>{fireWatchParagraph}</p>
                                 <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                                <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>
+                                {/* <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a> */}
                             </Col>
                         </Col>
                     </div>

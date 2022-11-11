@@ -10,13 +10,26 @@ function work() {
 
   const workLink = (e) => {
     e.preventDefault()
-    window.location = 'https://www.designwithgray.com/' 
+    window.open('https://www.designwithgray.com/')
   }
   const gitLink = (e) => {
     e.preventDefault()
-    window.location = 'https://github.com/IanZGray' 
+    window.open('https://github.com/IanZGray')
   }
   const bookLink = (e) => {
+    e.preventDefault()
+    window.open('https://www.amazon.com/kindle-dbs/entity/author/B09NZ7DCS4?_encoding=UTF8&node=283155&offset=0&pageSize=12&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default/')
+  }
+
+  const workMobileLink = (e) => {
+    e.preventDefault()
+    window.location = 'https://www.designwithgray.com/' 
+  }
+  const gitMobileLink = (e) => {
+    e.preventDefault()
+    window.location = 'https://github.com/IanZGray' 
+  }
+  const bookMobileLink = (e) => {
     e.preventDefault()
     window.location = 'https://www.amazon.com/kindle-dbs/entity/author/B09NZ7DCS4?_encoding=UTF8&node=283155&offset=0&pageSize=12&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default/' 
   }
