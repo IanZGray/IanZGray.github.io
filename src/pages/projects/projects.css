@@ -151,7 +151,8 @@ h1{
         display: none;
     }
     .active.projects-fade-left {
-        animation: fade-left 1s ease-in;
+        /* animation: fade-left 1s ease-in; */
+        animation: fade 1s ease-in;
         animation-fill-mode: forwards;
     }
     .active.projects-fade-right {
@@ -159,7 +160,7 @@ h1{
         animation-fill-mode: forwards;
     }
 
-    @keyframes projects-fade-left {
+    /* @keyframes projects-fade-left {
         0% {
         transform: translateX(-25vw);
         opacity: 0;
@@ -170,7 +171,7 @@ h1{
         100% {
         transform: translateX(0);
         }
-    }
+    } */
     
     @keyframes projects-fade-right {
         0% {
