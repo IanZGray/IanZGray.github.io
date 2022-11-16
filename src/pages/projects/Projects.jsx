@@ -49,8 +49,8 @@ function Projects() {
   return (
     <Container fluid className="pages featured" id="projects">
         <div className="featured-view">
-        <h1 className="mobile-big-header">Featured Projects</h1>
-        <h1 className="big-header reveal">Featured Projects</h1>
+        <h1 className="mobile-big-header">Featured Project</h1>
+        <h1 className="big-header reveal">Featured Project</h1>
 
         <Carousel id="mobile-caro" activeIndex={index} onSelect={handleSelect}>
             {/* <Carousel.Item id="mobile-view">
@@ -78,7 +78,7 @@ function Projects() {
                     <p className="mobile-languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item onClick={ gitMobileLink } >
+            {/* <Carousel.Item onClick={ gitMobileLink } >
             <div className="fog"></div>
             <img src={mobilePort} alt="This Portfolio"  className="mobile-pics"/>
 
@@ -89,7 +89,7 @@ function Projects() {
                     <p className='mobile-p'>{fireWatchParagraph}</p>
                     <p className="mobile-languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                 </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
         </Carousel>
                     {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-aws'>
@@ -101,8 +101,8 @@ function Projects() {
                             <p className="mobile-languages">React.js, Node.js, npm, JavaScript, CSS, HTML</p>
                         </Col>
                     </div> */}
-                    <Row className="project-rows">
-                    {/* <div id="tablet-view">
+                    {/* <Row className="project-rows">
+                    <div id="tablet-view">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={mobilePlant} alt="AWS Sustainability Project"  className="pics"/>
@@ -115,8 +115,8 @@ function Projects() {
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
-                    </div> */}
-                    {/* <div id="desktop-view" className="reveal projects-fade-right">
+                    </div>
+                    <div id="desktop-view" className="reveal projects-fade-right">
                         <Col className="yellow-box" xs={{span: 7, offset: 4}}>
                             <Col xs={{span: 5}}>
                                 <img src={plantHere} alt="AWS Sustainability Project"  className="pics"/>
@@ -129,8 +129,8 @@ function Projects() {
                                 <a href="https://effervescent-banoffee-aed9b2.netlify.app/" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a>
                             </Col>
                         </Col>
-                    </div> */}
-                </Row>
+                    </div>
+                </Row> */}
 
                     {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-bank'>
@@ -145,7 +145,7 @@ function Projects() {
                     </div> */}
                     <Row className="project-rows">
                     <div id="tablet-view" onClick={ bankLink } >
-                        <Col className="yellow-box" xs={{span: 7, offset: 1}} >
+                        <Col className="yellow-box" xs={{span: 8, offset: 3}} >
                             <Col xs={{span: 7 }} className='bio'>
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
@@ -155,12 +155,12 @@ function Projects() {
                             {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                             */}
                             </Col>
                             <Col xs={{span: 5}}>
-                                <img src={mobileBank} alt="Bad Bank"  className="pics"/>
+                                <img src={mobileBank} alt="Bad Bank" className="pics"/>
                             </Col>
                         </Col>
                     </div>
                     <div id="desktop-view" className="reveal projects-fade-left" onClick={ bankLink }>
-                        <Col className="yellow-box" xs={{span: 7, offset: 1}}>
+                        <Col className="yellow-box" xs={{span: 8, offset: 2}}>
                             <Col xs={{span: 7 }} className='bio'>
                             <h1 className="header left">Bad Bank</h1>
                             <h2 className="sub-header left">Front-Facing Bank Project</h2>
@@ -170,7 +170,7 @@ function Projects() {
                             {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
                             </Col>
                             <Col xs={{span: 5}}>
-                                <img src={badBank} alt="Bad Bank"  className="pics"/>
+                                <img src={badBank} alt="Bad Bank" className="pics"/>
                             </Col>
                         </Col>
                     </div>
@@ -186,36 +186,34 @@ function Projects() {
                             <p className="mobile-languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
                         </Col>
                     </div> */}
-                    <Row className="project-rows">
-                    <div id="tablet-view" onClick={ gitLink } >
-                        <Col className="yellow-box" xs={{span: 7, offset: 4}}>
-                            <Col xs={{span: 5}}>
-                                <img src={mobilePort} alt="portfolio"  className="pics"/>
+                    {/* <Row className="project-rows">
+                        <div id="tablet-view" onClick={ gitLink } >
+                            <Col className="yellow-box" xs={{span: 7, offset: 4}}>
+                                <Col xs={{span: 5}}>
+                                    <img src={mobilePort} alt="portfolio"  className="pics"/>
+                                </Col>
+                                <Col xs={{span: 7 }} className='bio'>
+                                    <h1 className="header right">this.website</h1>
+                                    <h2 className="sub-header right">My Development Portfolio</h2>
+                                    <p>{fireWatchParagraph}</p>
+                                    <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                                </Col>
                             </Col>
-                            <Col xs={{span: 7 }} className='bio'>
-                                <h1 className="header right">this.website</h1>
-                                <h2 className="sub-header right">My Development Portfolio</h2>
-                                <p>{fireWatchParagraph}</p>
-                                <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                                {/* <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a> */}
+                        </div>
+                        <div id="desktop-view" className="reveal projects-fade-right" onClick={ gitLink } >
+                            <Col className="yellow-box" xs={{span: 7, offset: 4}}>
+                                <Col xs={{span: 5}}>
+                                    <img src={portfolioApp} alt="portfolio"  className="pics"/>
+                                </Col>
+                                <Col xs={{span: 7 }} className='bio'>
+                                    <h1 className="header right">this.website</h1>
+                                    <h2 className="sub-header right">My Development Portfolio</h2>
+                                    <p>{fireWatchParagraph}</p>
+                                    <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
+                                </Col>
                             </Col>
-                        </Col>
-                    </div>
-                    <div id="desktop-view" className="reveal projects-fade-right" onClick={ gitLink } >
-                        <Col className="yellow-box" xs={{span: 7, offset: 4}}>
-                            <Col xs={{span: 5}}>
-                                <img src={portfolioApp} alt="portfolio"  className="pics"/>
-                            </Col>
-                            <Col xs={{span: 7 }} className='bio'>
-                                <h1 className="header right">this.website</h1>
-                                <h2 className="sub-header right">My Development Portfolio</h2>
-                                <p>{fireWatchParagraph}</p>
-                                <p className="languages">React.js, Node.js, Yarn, Bootstrap, JavaScript, CSS, HTML</p>
-                                {/* <a href="https://GitHub.com/IanZGray/ianzgray.GitHub.io" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a> */}
-                            </Col>
-                        </Col>
-                    </div>
-                </Row>
+                        </div>
+                    </Row> */}
         </div>
     </Container>
   )
