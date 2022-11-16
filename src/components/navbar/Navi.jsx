@@ -19,6 +19,14 @@ function Navi() {
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
+      <a className="navbar-brand meautobrand" href="/" alt="logo">
+                  <img 
+          alt="logo"
+          src={mobileLogo}
+          width="70vw"
+          className="d-inline-block"
+          />
+      </a>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <a className="link-font" href="#projects">Featured Projects</a>
@@ -28,14 +36,7 @@ function Navi() {
 
         </ul>
       </div>
-      <a className="navbar-brand meautobrand" href="/" alt="logo">
-                  <img 
-          alt="logo"
-          src={mobileLogo}
-          width="70vw"
-          className="d-inline-block"
-          />
-      </a>
+
       {/* <p className="navbar-nav endTag start-70 end-0" id="name-corner">Ian Gray</p> */}
     </nav>
 
