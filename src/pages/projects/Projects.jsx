@@ -91,66 +91,66 @@ function Projects() {
         </Carousel>
 
         {/* Desktop and Tablet View */}
-        <Row className="project-rows">
-            <div id="tablet-view" onClick={ swiftLink } >
-                <Col className="yellow-box" xs={{span: 7, offset: 4}} >
-                    <Col xs={{span: 7 }} className='bio'>
+        <Col className="project-rows" xs={{span: 7, offset: 4}}>
+            <div id="tablet-view" className='reveal projects-fade-right' >
+                <div className="yellow-box" onClick={ swiftLink } >
+                    <div className='bio'>
                     <h1 className="header left">Swift Reader</h1>
                     <h2 className="sub-header left">Study Aide and Document Reader</h2>
                     <p>{swiftParagraph}</p>
                     <p className="languages">Firebase, React.js, Node.js, yarn, JavaScript, CSS, HTML</p>
-                    </Col>
-                    <Col xs={{span: 5}}>
+                    </div>
+                    <div  className="pic-border" >
                         <img src={mobileSwift} alt="Swift Reader" className="pics"/>
-                    </Col>
-                </Col>
+                    </div>
+                </div>
             </div>
-            <div id="desktop-view" className="reveal projects-fade-right" onClick={ swiftLink }>
-                <Col className="yellow-box" xs={{span: 7, offset: 4}}>
-                    <Col xs={{span: 7 }} className='bio'>
-                    <h1 className="header left">Swift Reader</h1>
-                    <h2 className="sub-header left">Study Aide and Document Reader</h2>
-                    <p>{swiftParagraph}</p>
-                    <p className="languages">Firebase, React.js, Node.js, yarn, JavaScript, CSS, HTML</p>
-                    </Col>
-                    <Col xs={{span: 5}}>
+            <div id="desktop-view" className="reveal projects-fade-right" >
+                <div className="yellow-box" onClick={ swiftLink }>
+                    <div className='bio'>
+                        <h1 className="header left">Swift Reader</h1>
+                        <h2 className="sub-header left">Study Aide and Document Reader</h2>
+                        <p>{swiftParagraph}</p>
+                        <p className="languages">Firebase, React.js, Node.js, yarn, JavaScript, CSS, HTML</p>
+                    </div>
+                    <div className="pic-border" >
                         <img src={swiftReader} alt="Swift Reader" className="pics"/>
-                    </Col>
-                </Col>
+                    </div>
+                </div>
             </div>
-        </Row>
-        <Row className="project-rows">
-        <div id="tablet-view" onClick={ bankLink } >
-            <Col className="yellow-box" xs={{span: 7, offset: 1}} >
-                <Col xs={{span: 7 }} className='bio'>
-                <h1 className="header left">Bad Bank</h1>
-                <h2 className="sub-header left">Front-Facing Bank Project</h2>
-                <p>{badBankParagraph}</p>
-                <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
-                {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a> */}
-                {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                             */}
-                </Col>
-                <Col xs={{span: 5}}>
-                    <img src={mobileBank} alt="Bad Bank" className="pics"/>
-                </Col>
-            </Col>
-        </div>
-        <div id="desktop-view" className="reveal projects-fade-left" onClick={ bankLink }>
-            <Col className="yellow-box" xs={{span: 7, offset: 1}}>
-                <Col xs={{span: 7 }} className='bio'>
-                <h1 className="header left">Bad Bank</h1>
-                <h2 className="sub-header left">Front-Facing Bank Project</h2>
-                <p>{badBankParagraph}</p>
-                <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
-                {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a> */}
-                {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
-                </Col>
-                <Col xs={{span: 5}}>
-                    <img src={badBank} alt="Bad Bank" className="pics"/>
-                </Col>
-            </Col>
-        </div>
-    </Row>
+        </Col>
+        <Col className="project-rows" xs={{span: 7, offset: 1}}>
+            <div id="tablet-view"  className='reveal projects-fade-left' >
+                <div className="yellow-box" onClick={ bankLink }>
+                    <div className='bio'>
+                    <h1 className="header left">Bad Bank</h1>
+                    <h2 className="sub-header left">Front-Facing Bank Project</h2>
+                    <p>{badBankParagraph}</p>
+                    <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
+                    {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">View</button></a> */}
+                    {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons" alt="link to design page">GitHub</button></a>                             */}
+                    </div>
+                    <div className="pic-border" >
+                        <img src={mobileBank} alt="Bad Bank" className="pics"/>
+                    </div>
+                </div>
+            </div>
+            <div id="desktop-view" className="reveal projects-fade-left" >
+                <div className="yellow-box" onClick={ bankLink }>
+                    <div className='bio'>
+                    <h1 className="header left">Bad Bank</h1>
+                    <h2 className="sub-header left">Front-Facing Bank Project</h2>
+                    <p>{badBankParagraph}</p>
+                    <p className="languages">React.js, Node.js, Express.js, Mongo DB, Mongooese, Mongo Atlas, npm, Bootstrap, JWT, Bcrypt, JavaScript, CSS, HTML</p>
+                    {/* <a href="https://ian-grayfullstackbankingapplication.s3.amazonaws.com/index.html" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">View</button></a> */}
+                    {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
+                    </div>
+                    <div className="pic-border" >
+                        <img src={badBank} alt="Bad Bank" className="pics"/>
+                    </div>
+                </div>
+            </div>
+        </Col>
 
                     {/* <div id="mobile-view">
                         <Col className='mobile-pic-border-this'>
