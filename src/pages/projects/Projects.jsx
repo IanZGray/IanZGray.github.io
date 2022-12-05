@@ -91,7 +91,7 @@ function Projects() {
         </Carousel>
 
         {/* Desktop and Tablet View */}
-        <Col className="project-rows" xs={{span: 7, offset: 4}}>
+        <Col className="project-rows" xs={{span: 8, offset: 4}}>
             <div id="tablet-view" className='reveal projects-fade-right' >
                 <div className="yellow-box" onClick={ swiftLink } >
                     <div className='bio'>
@@ -119,7 +119,7 @@ function Projects() {
                 </div>
             </div>
         </Col>
-        <Col className="project-rows" xs={{span: 7, offset: 1}}>
+        <Col className="project-rows" xs={{span: 8, offset: 1}}>
             <div id="tablet-view"  className='reveal projects-fade-left' >
                 <div className="yellow-box" onClick={ bankLink }>
                     <div className='bio'>
