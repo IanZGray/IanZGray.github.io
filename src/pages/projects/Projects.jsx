@@ -114,7 +114,7 @@ function Projects() {
                         <p className="languages">Firebase, React.js, Node.js, yarn, JavaScript, CSS, HTML</p>
                     </div>
                     <div className="pic-border" >
-                        <img src={swiftReader} alt="Swift Reader" className="pics"/>
+                        <img src={mobileSwiftReader} alt="Swift Reader" className="pics"/>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@ function Projects() {
                     {/* <a href="https://GitHub.com/IanZGray/Bad-Bank" target="_blank" rel="noreferrer"><button className="project-buttons clicks" alt="link to design page">GitHub</button></a>                             */}
                     </div>
                     <div className="pic-border" >
-                        <img src={badBank} alt="Bad Bank" className="pics"/>
+                        <img src={mobileBadBank} alt="Bad Bank" className="pics"/>
                     </div>
                 </div>
             </div>
